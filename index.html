@@ -199,6 +199,8 @@ Error message and password prompt
 
 <li>$:/language</li>
 
+<li>$:/language/Snippets/LearningNote</li>
+
 <li>$:/languages/zh-Hans</li>
 
 <li>$:/plugins/tiddlywiki/katex</li>
@@ -206,6 +208,8 @@ Error message and password prompt
 <li>$:/SiteSubtitle</li>
 
 <li>$:/SiteTitle</li>
+
+<li>$:/state/edit/references--657124657</li>
 
 <li>$:/state/edit/references-2012483557</li>
 
@@ -703,6 +707,8 @@ Error message and password prompt
 
 <li>实数域上的因式分解</li>
 
+<li>实数理论</li>
+
 <li>对数不等式</li>
 
 <li>对数函数</li>
@@ -765,6 +771,8 @@ Error message and password prompt
 
 <li>恒等映射</li>
 
+<li>戴德金分割</li>
+
 <li>抽象代数</li>
 
 <li>拓扑</li>
@@ -776,6 +784,8 @@ Error message and password prompt
 <li>指数函数</li>
 
 <li>支集</li>
+
+<li>数</li>
 
 <li>数列</li>
 
@@ -796,6 +806,8 @@ Error message and password prompt
 <li>斐波那契数列</li>
 
 <li>无序对公理</li>
+
+<li>无理数的存在性</li>
 
 <li>无穷公理</li>
 
@@ -820,6 +832,8 @@ Error message and password prompt
 <li>最小公倍数</li>
 
 <li>有序域</li>
+
+<li>有理数</li>
 
 <li>有理数域上的因式分解</li>
 
@@ -10233,6 +10247,10 @@ Error message and password prompt
 <div title="$:/language">
 <pre>$:/languages/zh-Hans</pre>
 </div>
+<div caption="学习笔记" created="20191129102945347" modified="20191129103123457" tags="$:/tags/TextEditor/Snippet" title="$:/language/Snippets/LearningNote">
+<pre>!! ''学习笔记''
+*</pre>
+</div>
 <div author="BramChen" core-version="&gt;=5.0.8" dependents="" description="Chinese (Simplified)" name="zh-Hans" plugin-priority="100" plugin-type="language" title="$:/languages/zh-Hans" type="application/json" version="5.1.21">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -14056,6 +14074,9 @@ Error message and password prompt
 <div created="20191124020852970" modified="20191124020856423" title="$:/SiteTitle">
 <pre>数学知识库</pre>
 </div>
+<div created="20191129101951872" modified="20191129101951872" title="$:/state/edit/references--657124657">
+<pre>show</pre>
+</div>
 <div created="20191124025441879" modified="20191124025441879" title="$:/state/edit/references-2012483557">
 <pre>show</pre>
 </div>
@@ -14089,13 +14110,13 @@ Error message and password prompt
 <div created="20191124074322191" modified="20191124074322882" title="$:/state/toc/知识库目录-其他相关-937382419">
 <pre>close</pre>
 </div>
-<div created="20191124024428795" modified="20191124110429769" title="$:/state/toc/知识库目录-基础数学-670268653">
+<div created="20191124024428795" modified="20191129122712154" title="$:/state/toc/知识库目录-基础数学-670268653">
 <pre>close</pre>
 </div>
 <div created="20191124023231471" modified="20191124024401538" title="$:/state/toc/知识库目录-数学-670268653">
 <pre>open</pre>
 </div>
-<div created="20191125065607422" list="" modified="20191125065710381" title="$:/StoryList">
+<div created="20191129100543826" list="" modified="20191129122628677" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -14915,7 +14936,7 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20191124023443522" modified="20191124023443524" title="$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary">
 <pre>ka</pre>
 </div>
-<div created="20191124023239474" modified="20191125064526094" title="$:/temp/search">
+<div created="20191124023239474" modified="20191129121036136" title="$:/temp/search">
 <pre></pre>
 </div>
 <div created="20191124023442888" modified="20191124023442888" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.21/index.html" url="https://tiddlywiki.com/library/v5.1.21/index.html">
@@ -17470,8 +17491,9 @@ $$
 <div created="20190918021655227" modified="20191124024543652" tags="基础数学" title="实变函数论">
 <pre></pre>
 </div>
-<div created="20191123122942036" modified="20191123144522276" title="实数">
-<pre>如同对[[数|数集]]暂时不下定义，实数的严格定义也不给出
+<div created="20191123122942036" modified="20191129122710008" title="实数">
+<pre>称每一个有理数全体的[[分割|戴德金分割]]为''实数''，记作$$
+a=(A\vert B)$$
 
 !! ''性质''
 *''代数结构''：全体实数构成一个[[数域]]，并称它为实数域。因此实数域满足数域的九条公理
@@ -17480,11 +17502,28 @@ $$
 *''拓扑结构''：
 **实数域是[[完备|完备性]]的，也即在它上面成立[[戴德金原理]]
 **实数域是[[列紧|列紧集]]的
-**实数域是[[可分|可分性]]的</pre>
+**实数域是[[可分|可分性]]的
+!! ''学习笔记''
+*实数的定义本质上是在[[有理数]]的基础上引入了无理数，引入的方式是</pre>
 </div>
 <div created="20190910091205670" modified="20190910091205670" tags="" title="实数域上的因式分解">
 <pre>!! ''实数域''
 令$$f(x)\in \mathbb{R}$$且$$\partial f(x) \geqslant1$$，则$$f(x)$$在$$\mathbb{R}$$上可以唯一分解成一次因式和二次不可约因式的乘积
+</pre>
+</div>
+<div created="20191129113449084" modified="20191129122706390" tags="" title="实数理论">
+<pre>在实数理论建立之前，[[数]]被扩充为[[有理数]]，具体过程为：
+
+#从具体事物的数量中抽象出''正整数''，进而通过事物数量的累加过程中定义了''加法''
+#从加法的逆运算中定义了''减法''，进而定义了''0''和''负整数''
+#从面积计算的过程中定义了''乘法''
+#从乘法的逆运算中定义了''除法''，进而定义了''分数''，''小数''，并将这些数统称为''有理数
+''
+后来又发现存在不属于有理数的数（被称为无理数，参阅[[无理数的存在性]]），实数理论的重要内容就是无理数的引入过程，也即[[有理数]]扩充到[[实数]]的过程，主要的方法有：
+
+*[[Dedekind实数理论]]
+*[[Bolzano实数理论]]
+*[[Cantor实数理论]]
 </pre>
 </div>
 <div created="20191111143111160" modified="20191111145341939" title="对数不等式">
@@ -17865,6 +17904,28 @@ $$
 *恒等映射是[[双射]]
 </pre>
 </div>
+<div created="20191129102618967" modified="20191129114351122" tags="" title="戴德金分割">
+<pre>设$$A,B$$是[[有理数域|有理数]]$$\mathbb{Q}$$的两个子集，它们满足三个条件：
+
+*''不空'' $$A\neq \varnothing$$且$$B\neq \varnothing$$
+*''不漏'' $$A\cup B=\mathbb{Q}$$
+*''不乱'' $$\forall x\in A,\forall y\in B,x&lt;y$$
+将分割记作$$(A,B)$$，称$$A$$为''下类''，$$B$$为''上类''
+
+!! ''性质''
+$$(A,B)$$是一个戴德金分割，那么分割仅有四种可能：
+
+#$$A$$中有最大数，$$B$$中无最小数
+#$$A$$中无最大数，$$B$$中有最小数
+#$$A$$中无最大数，$$B$$中无最小数
+称情形1和情形2为''切断''，情形3为''空洞''
+
+!! ''学习笔记''
+*定义中第三条“不乱”是$$x&lt;y$$而不是$$x\leqslant y$$，蕴含着“不乱且不多”，即不能有元素既属于$$A$$，又属于$$B$$
+*性质揭示了，$$A$$中有最大数，$$B$$中有最小数的情形不存在
+*有理数域上的戴德金分割的''切断''是有理数，''空洞''是无理数
+</pre>
+</div>
 <div created="20191016111455705" modified="20191124024531026" tags="基础数学" title="抽象代数">
 <pre>!! ''基本概念''
 
@@ -17913,6 +17974,14 @@ $$</pre>
 <div created="20190929122902233" modified="20190929123235306" title="支集">
 <pre>称集合</pre>
 </div>
+<div created="20191129101625850" modified="20191129101921073" title="数">
+<pre>数是客观事物量的表现
+
+!! ''学习笔记''
+*数的定义实质上是一种哲学范畴，因为数的定义往往存在两个问题，
+*#直白的定义往往不够严格（例如，“数是客观事物量的表现”）
+*#公理化的定义往往存在循环定义的问题，例如将数定义为复数域上的元素，而复数域的定义需要复数集，复数集的元素又是数</pre>
+</div>
 <div created="20190902141857695" modified="20191111134808600" title="数列">
 <pre>数列是一列有序的数。数列中的每一个数都叫做这个数列的项。排在第$$n$$位的数称为这个数列的第$$n$$项，通常用$$a_{n}$$表示。
 
@@ -17944,7 +18013,7 @@ $$
 |x_{n}-a|&lt;\varepsilon_{2}\Longrightarrow|x_{n}-a|&lt;\varepsilon_{1}$$也就是说，$$(N_{\varepsilon_{2}},\infty)\subset (N_{\varepsilon_{1}},\infty)$$，即有$$N_{\varepsilon_{2}}\leqslant N_{\varepsilon_{1}}
 $$也就是说，随着$$\varepsilon$$的减小（限制的加强），大致上越来越远的地方才能满足$$\varepsilon$$的限制，这也就描述了$$n\to \infty$$</pre>
 </div>
-<div created="20191120133937203" modified="20191123121130442" tags="" title="数域">
+<div created="20191120133937203" modified="20191129111901961" tags="" title="数域">
 <pre>设$$X$$是至少含有两个元素的[[数集]]，称$$X$$为''数域''，如果在$$X$$上存在二元运算$$+$$和$$ \cdot$$，且满足：
 
 *''加法结合律''$$
@@ -17969,15 +18038,15 @@ $$
 *定义中加法和乘法逆元的存在性等价于加法和乘法逆运算的存在性（称为减法和除法）
 *$$+$$和$$ \cdot$$是$$X$$上的二元运算，蕴含着数域对$$+$$和$$ \cdot$$的封闭性，由此也可推导出对$$-$$和$$\div$$的封闭性。类似定义参阅[[线性空间]]
 !! ''学习笔记''
-*数域与[[抽象代数]]中的[[域]]的区别在于，数域要求集合元素是[[数|数集]]。例如，根据[[域]]学习笔记（四），$$n$$维欧氏空间$$R^{n}$$是域，但它不是数域，因为$$R^{n}$$上的点不被认为是[[数|数集]]
+*数域与[[抽象代数]]中的[[域]]的区别在于，数域要求集合元素是[[数|数集]]。例如，根据[[域]]学习笔记（四），$$n$$维欧氏空间$$R^{n}$$是域，但它不是数域，因为$$R^{n}$$上的点不被认为是[[数]]
 *常见的数域有，
-**''有理数域''$$\mathbb{Q}$$（最小的数域）
+**''[[有理数域|有理数]]''$$\mathbb{Q}$$（最小的数域）
 **[[实数域|实数]]$$\mathbb{R}$$
 **''复数域''$$\mathbb{C}$$（最大的数域）
 *为什么乘法逆元中要求$$x\neq0$$，因为$$
 0\cdot x=(y-y)x=yx-yx=0,\forall x\in X$$换言之，$$0$$与任何元素作乘法都是$$0$$</pre>
 </div>
-<div created="20190901141807618" modified="20191124110330001" tags="基础数学" title="数学分析">
+<div created="20190901141807618" modified="20191129113718601" tags="基础数学" title="数学分析">
 <pre>!! ''公式速查''
 
 *[[不等式]]
@@ -17986,7 +18055,7 @@ $$
 *[[求导的基本法则]]
 
 !!''分析学基础''
-*[[实数理论|实数]]
+*[[实数理论]]
 *[[数列]]
 *[[函数]]
 *[[极限]]
@@ -18014,13 +18083,10 @@ $$
 *[[辗转相除法]]
 *[[费马大定理]]</pre>
 </div>
-<div created="20191121104005218" modified="20191121110111817" title="数集">
-<pre>称集合$$A$$为''数集''，如果它是复数集的子集
+<div created="20191121104005218" modified="20191129102144427" title="数集">
+<pre>称集合$$A$$为''数集''，如果它是[[复数]]集的子集
 
-!! ''学习笔记''
-*这里并没有给出比数集更基础的定义，因为这个问题探究到最后是''数''的定义，而数的定义甚至可能涉及到哲学范畴，一般的定义往往存在两个问题，
-*#直白的定义往往不够严格
-*#公理化的定义往往存在循环定义的问题，例如将数定义为复数域上的元素，而复数域的定义需要复数集，复数集的元素又是数</pre>
+</pre>
 </div>
 <div created="20190909074936074" modified="20191125064826180" tags="" title="整数互素">
 <pre>称$$a,b$$''互素''（或''互质''），如果$$(a,b)=1$$.
@@ -18068,6 +18134,23 @@ $$</pre>
 $$
 记作$$z=\{x,y\}
 $$</pre>
+</div>
+<div created="20191129120724105" modified="20191129122554228" title="无理数的存在性">
+<pre>!!! ''例1：$$\sqrt{2}$$不是有理数''
+
+!!! ''证明''
+若不然，假设$$\sqrt{2}$$是有理数，那么$$
+\sqrt{2}=\frac{p}{q}，p,q\in\Z,q\neq0,(p,q)=1.$$也即$$
+p^{2}=2q^{2}
+$$因此$$2|p$$，设$$p^{2}=4r^{2},r\in\Z$$，那么$$
+q^{2}=2r^{2}$$
+因此$$2|q$$，这与$$(p,q)=1$$矛盾！
+
+!!! ''例2：$$\log_2{5}$$不是有理数''
+!!! ''证明''
+若不然，假设$$\log_2{5}$$是有理数，那么$$
+\log_2{5}=\frac{p}{q}，p,q\in\Z,q\neq0,(p,q)=1.$$也即$$
+2^{p}=5^{q}$$而$$2^{p}$$是偶数，$$5^{q}$$是奇数，矛盾！</pre>
 </div>
 <div created="20191016141728778" modified="20191016142510846" title="无穷公理">
 <pre>无穷公理简单说，就是存在一集合$$x$$，它有无穷多元素，严格定义如下：
@@ -18263,6 +18346,13 @@ $$
 $$
 *''对乘法的相容性''$$
 x\leqslant y\Longrightarrow xz\leqslant yz,\forall z\in\R^{+}=\{z\in\R，0\leqslant z\}$$</pre>
+</div>
+<div created="20191129112611246" modified="20191129121045239" title="有理数">
+<pre>称[[数]]$$a$$为一有理数，如果满足$$
+a=\frac{p}{q}，p,q\in\Z,q\neq0,(p,q)=1$$
+
+!! ''学习笔记''
+*有理数域是最小的[[数域]]</pre>
 </div>
 <div created="20190910092015105" modified="20191125064717379" title="有理数域上的因式分解">
 <pre>*令$$f(x)\in\Z[x],\partial f(x) \geqslant1.$$则$$f(x)$$在$$\mathbb{Q}$$上可约当且仅当$$f(x)$$在$$\Z$$上可约。由[[本原多项式]]的推论1立即可得
@@ -18605,10 +18695,10 @@ $$
   0, &amp; x=y
 \end{cases}$$容易$$d(x,y)$$是[[度量函数]]，此时称度量空间$$(X,d)$$为''离散度量空间''</pre>
 </div>
-<div created="20191011131216965" modified="20191011145900514" title="稠密集">
+<div created="20191011131216965" modified="20191129101050225" title="稠密集">
 <pre>称度量空间$$X$$的子集$$A$$在$$X$$中''稠密''（$$A$$为''稠密子集''），如果$$\bar{A}=X
 $$
-也就是最多缺一些极限点</pre>
+也即，稠密集与全集最多相差一些极限点</pre>
 </div>
 <div created="20191016134525117" modified="20191016135426939" title="空集存在公理">
 <pre>存在一个集合，它没有任何元素，即$$
