@@ -57,7 +57,66 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 </head>
 <body class="tc-body">
 <!--~~ Raw markup for the top of the body section ~~-->
+<div class="tc-remove-when-wiki-loaded">
+<style scoped>.tc-splash-text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+	margin: 20px auto 0;
+	width: 200px;
+	text-align: center;
+	color: #333333;
+	fill: #333333;
+}.tc-splash-text img {
+	width: 150px;
+	
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+     -moz-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 
+}html body.tc-body {
+	background: #f4f4f4;
+}
+.tc-splash-spinner {
+	margin: 20px auto 0;
+	width: 70px;
+	text-align: center;
+}.tc-splash-spinner > div {
+	width: 18px;
+	height: 18px;
+	border-radius: 100%;
+	display: inline-block;
+	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+	background-color: #f88;
+}.tc-splash-spinner .tc-splash-bounce-1 {
+	-webkit-animation-delay: -0.32s;
+	animation-delay: -0.32s;
+	background-color: #8f8;
+}.tc-splash-spinner .tc-splash-bounce-2 {
+	-webkit-animation-delay: -0.16s;
+	animation-delay: -0.16s;
+	background-color: #88f;
+}@-webkit-keyframes sk-bouncedelay {
+	0%, 80%, 100% { -webkit-transform: scale(0) }
+	40% { -webkit-transform: scale(1.0) }
+}@keyframes sk-bouncedelay {
+	0%, 80%, 100% { 
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	} 40% { 
+	-webkit-transform: scale(1.0);
+	transform: scale(1.0);
+	}
+}
+</style><div class="tc-splash-spinner">
+  <div class="tc-splash-bounce-1"></div>
+  <div class="tc-splash-bounce-2"></div>
+  <div class="tc-splash-bounce-3"></div>
+</div><div class="tc-splash-text">
+ 数学知识库正在加载中， 请稍候
+</div></div>
 <!--~~ Static styles ~~-->
 <div id="styleArea">
 <style data-tiddler-title="$:/boot/boot.css" data-tiddler-type="text/css" type="text/css">/*
@@ -149,52 +208,6 @@ Error message and password prompt
 
 <li>$:/favicon.ico</li>
 
-<li>$:/GitHub/Branch</li>
-
-<li>$:/GitHub/Filename</li>
-
-<li>$:/GitHub/Repo</li>
-
-<li>$:/GitHub/ServerURL</li>
-
-<li>$:/GitHub/Username</li>
-
-<li>$:/Import</li>
-
-<li>$:/Import!!popup-10.png</li>
-
-<li>$:/Import!!popup-AndTidWiki</li>
-
-<li>$:/Import!!popup-Axi.良序公理</li>
-
-<li>$:/Import!!popup-MATLAB</li>
-
-<li>$:/Import!!popup-MATLAB代码片段</li>
-
-<li>$:/Import!!popup-Tiddloid</li>
-
-<li>$:/Import!!popup-回顾笔记</li>
-
-<li>$:/Import!!popup-图床选择</li>
-
-<li>$:/Import!!popup-文件同步与备份</li>
-
-<li>$:/Import!!popup-文件命名分类规范</li>
-
-<li>$:/Import!!popup-欧氏几何公理</li>
-
-<li>$:/Import!!popup-汇总与规范</li>
-
-<li>$:/Import!!popup-知识库目录</li>
-
-<li>$:/Import!!popup-知识笔记管理规范</li>
-
-<li>$:/Import!!popup-编程与应用</li>
-
-<li>$:/Import!!popup-论洗脑</li>
-
-<li>$:/Import!!popup-闭集的交集是闭集</li>
-
 <li>$:/isEncrypted</li>
 
 <li>$:/language</li>
@@ -208,6 +221,8 @@ Error message and password prompt
 <li>$:/SiteSubtitle</li>
 
 <li>$:/SiteTitle</li>
+
+<li>$:/SplashScreen</li>
 
 <li>$:/state/edit/references--657124657</li>
 
@@ -227,6 +242,8 @@ Error message and password prompt
 
 <li>$:/state/tab--1963855381</li>
 
+<li>$:/state/tab-1163638994</li>
+
 <li>$:/state/tab-1749438307</li>
 
 <li>$:/state/tab-2065006209</li>
@@ -235,13 +252,57 @@ Error message and password prompt
 
 <li>$:/state/tab/sidebar--595412856</li>
 
+<li>$:/state/toc/知识库目录-其他相关--1082775775</li>
+
 <li>$:/state/toc/知识库目录-其他相关-670268653</li>
 
 <li>$:/state/toc/知识库目录-其他相关-937382419</li>
 
+<li>$:/state/toc/知识库目录-基础数学--1082775775</li>
+
 <li>$:/state/toc/知识库目录-基础数学-670268653</li>
 
 <li>$:/state/toc/知识库目录-数学-670268653</li>
+
+<li>$:/state/tree/$:/temp/</li>
+
+<li>$:/state/tree/$:/temp/RemoteAssetInfo/</li>
+
+<li>$:/state/tree/$:/temp/RemoteAssetInfo/https:/</li>
+
+<li>$:/state/tree/$:/temp/RemoteAssetInfo/https://</li>
+
+<li>$:/state/tree/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/</li>
+
+<li>$:/state/tree/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/</li>
+
+<li>$:/state/tree/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.21/</li>
+
+<li>$:/state/tree/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.21/index.html/</li>
+
+<li>$:/state/tree/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.21/index.html/$:/</li>
+
+<li>$:/state/tree/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.21/index.html/$:/themes/</li>
+
+<li>$:/state/tree/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.21/index.html/$:/themes/tiddlywiki/</li>
+
+<li>$:/state/tree/$:/temp/RemoteAssetSearch/</li>
+
+<li>$:/state/tree/$:/temp/RemoteAssetSearch/$:/</li>
+
+<li>$:/state/tree/$:/temp/RemoteAssetSearch/$:/config/</li>
+
+<li>$:/state/tree/$:/temp/ServerConnection/</li>
+
+<li>$:/state/tree/$:/temp/ServerConnection/https:/</li>
+
+<li>$:/state/tree/$:/temp/ServerConnection/https://</li>
+
+<li>$:/state/tree/$:/temp/ServerConnection/https://tiddlywiki.com/</li>
+
+<li>$:/state/tree/$:/temp/ServerConnection/https://tiddlywiki.com/library/</li>
+
+<li>$:/state/tree/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.21/</li>
 
 <li>$:/StoryList</li>
 
@@ -481,6 +542,8 @@ Error message and password prompt
 
 <li>Dedekind除法</li>
 
+<li>Draft of 'LaTeX多行格式'</li>
+
 <li>Hausdorff定理</li>
 
 <li>k重因式</li>
@@ -491,11 +554,11 @@ Error message and password prompt
 
 <li>LaTeX下划线</li>
 
-<li>LaTex二元关系</li>
+<li>LaTeX二元关系</li>
 
 <li>LaTeX几何</li>
 
-<li>LaTex函数</li>
+<li>LaTeX函数</li>
 
 <li>LaTeX分段函数</li>
 
@@ -517,7 +580,7 @@ Error message and password prompt
 
 <li>LaTeX希伯来语</li>
 
-<li>LaTex希腊字母</li>
+<li>LaTeX希腊字母</li>
 
 <li>LaTeX常用字符的特殊表达</li>
 
@@ -525,7 +588,7 @@ Error message and password prompt
 
 <li>LaTeX微积分</li>
 
-<li>LaTex括号与上下标</li>
+<li>LaTeX括号与上下标</li>
 
 <li>LaTeX换行与换页</li>
 
@@ -549,7 +612,7 @@ Error message and password prompt
 
 <li>LaTeX符号</li>
 
-<li>LaTex箭头</li>
+<li>LaTeX箭头</li>
 
 <li>LaTeX索引</li>
 
@@ -561,13 +624,15 @@ Error message and password prompt
 
 <li>LaTeX运算符</li>
 
+<li>LaTeX连等式</li>
+
 <li>LaTeX逻辑</li>
 
 <li>LaTeX长度与单位</li>
 
 <li>LaTeX长文件的编写</li>
 
-<li>LaTex集合</li>
+<li>LaTeX集合</li>
 
 <li>LaTeX页面尺寸</li>
 
@@ -10188,77 +10253,6 @@ Error message and password prompt
 <div created="20191125065712647" modified="20191125065714144" title="$:/favicon.ico" type="image/png">
 <pre>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</pre>
 </div>
-<div created="20191124111137768" modified="20191124111137768" title="$:/GitHub/Branch">
-<pre></pre>
-</div>
-<div created="20191124064420477" modified="20191124111138484" title="$:/GitHub/Filename">
-<pre></pre>
-</div>
-<div created="20191124064300131" modified="20191124111137113" title="$:/GitHub/Repo">
-<pre></pre>
-</div>
-<div created="20191124111139208" modified="20191124111139208" title="$:/GitHub/ServerURL">
-<pre></pre>
-</div>
-<div created="20191124064110988" modified="20191124111136238" title="$:/GitHub/Username">
-<pre></pre>
-</div>
-<div status="complete" title="$:/Import">
-<pre>下列条目已被导入：
-
-# [[10.png]]</pre>
-</div>
-<div created="20191125065410297" modified="20191125065412538" title="$:/Import!!popup-10.png">
-<pre>no</pre>
-</div>
-<div created="20191124021232101" modified="20191124021238850" title="$:/Import!!popup-AndTidWiki">
-<pre>no</pre>
-</div>
-<div created="20191124021241139" modified="20191124021243807" title="$:/Import!!popup-Axi.良序公理">
-<pre>no</pre>
-</div>
-<div created="20191124022128472" modified="20191124022129133" title="$:/Import!!popup-MATLAB">
-<pre>no</pre>
-</div>
-<div created="20191124022132544" modified="20191124022133398" title="$:/Import!!popup-MATLAB代码片段">
-<pre>no</pre>
-</div>
-<div created="20191124022224796" modified="20191124022226728" title="$:/Import!!popup-Tiddloid">
-<pre>no</pre>
-</div>
-<div created="20191124021940071" modified="20191124021941411" title="$:/Import!!popup-回顾笔记">
-<pre>no</pre>
-</div>
-<div created="20191124022848413" modified="20191124022851113" title="$:/Import!!popup-图床选择">
-<pre>no</pre>
-</div>
-<div created="20191124021737470" modified="20191124021741528" title="$:/Import!!popup-文件同步与备份">
-<pre>no</pre>
-</div>
-<div created="20191124021732879" modified="20191124021735660" title="$:/Import!!popup-文件命名分类规范">
-<pre>no</pre>
-</div>
-<div created="20191124021647136" modified="20191124021648714" title="$:/Import!!popup-欧氏几何公理">
-<pre>no</pre>
-</div>
-<div created="20191124021627552" modified="20191124021629822" title="$:/Import!!popup-汇总与规范">
-<pre>no</pre>
-</div>
-<div created="20191124021542920" modified="20191124021550611" title="$:/Import!!popup-知识库目录">
-<pre>no</pre>
-</div>
-<div created="20191124021537491" modified="20191124021538298" title="$:/Import!!popup-知识笔记管理规范">
-<pre>no</pre>
-</div>
-<div created="20191124021456069" modified="20191124021457890" title="$:/Import!!popup-编程与应用">
-<pre>no</pre>
-</div>
-<div created="20191124021433902" modified="20191124021435752" title="$:/Import!!popup-论洗脑">
-<pre>no</pre>
-</div>
-<div created="20191124021407406" modified="20191124021410314" title="$:/Import!!popup-闭集的交集是闭集">
-<pre>no</pre>
-</div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
@@ -14092,6 +14086,88 @@ Error message and password prompt
 <div created="20191124020852970" modified="20191124020856423" title="$:/SiteTitle">
 <pre>数学知识库</pre>
 </div>
+<div created="20191203052137065" modified="20191203112135939" tags="$:/tags/RawMarkupWikified/TopBody" title="$:/SplashScreen" type="text/vnd.tiddlywiki">
+<pre>\import [[$:/core/ui/PageMacros]] [all[shadows+tiddlers]tag[$:/tags/Macro]!has[draft.of]]
+\rules only filteredtranscludeinline transcludeinline macrocallinline
+&lt;div class=&quot;tc-remove-when-wiki-loaded&quot;&gt;
+&lt;style scoped&gt;
+
+.tc-splash-text {
+    font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+	margin: 20px auto 0;
+	width: 200px;
+	text-align: center;
+	color: &lt;&lt;colour foreground&gt;&gt;;
+	fill: &lt;&lt;colour foreground&gt;&gt;;
+}
+
+.tc-splash-text img {
+	width: 150px;
+	&lt;&lt;box-shadow &quot;2px 2px 10px rgba(0, 0, 0, 0.5)&quot;&gt;&gt;
+}
+
+html body.tc-body {
+	background: &lt;&lt;colour page-background&gt;&gt;;
+}
+.tc-splash-spinner {
+	margin: 20px auto 0;
+	width: 70px;
+	text-align: center;
+}
+
+.tc-splash-spinner &gt; div {
+	width: 18px;
+	height: 18px;
+	border-radius: 100%;
+	display: inline-block;
+	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+	background-color: #f88;
+}
+
+.tc-splash-spinner .tc-splash-bounce-1 {
+	-webkit-animation-delay: -0.32s;
+	animation-delay: -0.32s;
+	background-color: #8f8;
+}
+
+.tc-splash-spinner .tc-splash-bounce-2 {
+	-webkit-animation-delay: -0.16s;
+	animation-delay: -0.16s;
+	background-color: #88f;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+	0%, 80%, 100% { -webkit-transform: scale(0) }
+	40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+	0%, 80%, 100% { 
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	} 40% { 
+	-webkit-transform: scale(1.0);
+	transform: scale(1.0);
+	}
+}
+&lt;/style&gt;
+
+&lt;div class=&quot;tc-splash-spinner&quot;&gt;
+  &lt;div class=&quot;tc-splash-bounce-1&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;tc-splash-bounce-2&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;tc-splash-bounce-3&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-splash-text&quot;&gt;
+ 数学知识库正在加载中， 请稍候
+&lt;/div&gt;
+
+&lt;/div&gt;</pre>
+</div>
 <div created="20191129101951872" modified="20191129101951872" title="$:/state/edit/references--657124657">
 <pre>show</pre>
 </div>
@@ -14110,8 +14186,8 @@ Error message and password prompt
 <div created="20191130133706518" modified="20191130133706518" title="$:/state/Excise/-317381512/type">
 <pre>link</pre>
 </div>
-<div created="20191125065326464" modified="20191125065327446" title="$:/state/image-picker/system-2042070162">
-<pre>hide</pre>
+<div created="20191125065326464" modified="20191203053141343" title="$:/state/image-picker/system-2042070162">
+<pre>show</pre>
 </div>
 <div created="20191124024926473" modified="20191124074638478" title="$:/state/showeditpreview">
 <pre>yes</pre>
@@ -14119,31 +14195,100 @@ Error message and password prompt
 <div created="20191124021144347" modified="20191124021144347" title="$:/state/tab--1963855381">
 <pre>$:/themes/tiddlywiki/vanilla/themetweaks</pre>
 </div>
-<div created="20191124021143044" modified="20191124134454469" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Info</pre>
+<div created="20191203044641498" modified="20191203044644201" title="$:/state/tab-1163638994">
+<pre>$:/core/ui/MoreSideBar/Plugins/Languages</pre>
 </div>
-<div created="20191124025540934" modified="20191124110450453" title="$:/state/tab-2065006209">
-<pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
+<div created="20191124021143044" modified="20191202154925340" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Saving</pre>
 </div>
-<div created="20191124021202245" modified="20191125064929550" title="$:/state/tab/moresidebar-1850697562">
+<div created="20191124025540934" modified="20191202154931778" title="$:/state/tab-2065006209">
+<pre>$:/core/ui/ControlPanel/Saving/General</pre>
+</div>
+<div created="20191124021202245" modified="20191203052818622" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/System</pre>
 </div>
-<div created="20191124021157202" modified="20191125065725892" title="$:/state/tab/sidebar--595412856">
+<div created="20191124021157202" modified="20191203115853137" title="$:/state/tab/sidebar--595412856">
 <pre>知识库目录</pre>
 </div>
-<div created="20191124025641124" modified="20191124110427749" title="$:/state/toc/知识库目录-其他相关-670268653">
+<div created="20191203044200360" modified="20191203044230019" title="$:/state/toc/知识库目录-其他相关--1082775775">
+<pre>close</pre>
+</div>
+<div created="20191124025641124" modified="20191203044221577" title="$:/state/toc/知识库目录-其他相关-670268653">
 <pre>close</pre>
 </div>
 <div created="20191124074322191" modified="20191124074322882" title="$:/state/toc/知识库目录-其他相关-937382419">
 <pre>close</pre>
 </div>
-<div created="20191124024428795" modified="20191130144117848" title="$:/state/toc/知识库目录-基础数学-670268653">
+<div created="20191203044159094" modified="20191203112142327" title="$:/state/toc/知识库目录-基础数学--1082775775">
+<pre>open</pre>
+</div>
+<div created="20191124024428795" modified="20191203111712789" title="$:/state/toc/知识库目录-基础数学-670268653">
 <pre>close</pre>
 </div>
 <div created="20191124023231471" modified="20191124024401538" title="$:/state/toc/知识库目录-数学-670268653">
 <pre>open</pre>
 </div>
-<div created="20191130025545266" list="" modified="20191130144108016" title="$:/StoryList">
+<div created="20191203044528289" modified="20191203044528289" title="$:/state/tree/$:/temp/">
+<pre>show</pre>
+</div>
+<div created="20191203044557986" modified="20191203044618703" title="$:/state/tree/$:/temp/RemoteAssetInfo/">
+<pre>hide</pre>
+</div>
+<div created="20191203044558862" modified="20191203044558862" title="$:/state/tree/$:/temp/RemoteAssetInfo/https:/">
+<pre>show</pre>
+</div>
+<div created="20191203044559933" modified="20191203044559933" title="$:/state/tree/$:/temp/RemoteAssetInfo/https://">
+<pre>show</pre>
+</div>
+<div created="20191203044600978" modified="20191203044600978" title="$:/state/tree/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/">
+<pre>show</pre>
+</div>
+<div created="20191203044601883" modified="20191203044601883" title="$:/state/tree/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/">
+<pre>show</pre>
+</div>
+<div created="20191203044602706" modified="20191203044602706" title="$:/state/tree/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.21/">
+<pre>show</pre>
+</div>
+<div created="20191203044603502" modified="20191203044603502" title="$:/state/tree/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.21/index.html/">
+<pre>show</pre>
+</div>
+<div created="20191203044604310" modified="20191203044604310" title="$:/state/tree/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.21/index.html/$:/">
+<pre>show</pre>
+</div>
+<div created="20191203044613227" modified="20191203044613227" title="$:/state/tree/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.21/index.html/$:/themes/">
+<pre>show</pre>
+</div>
+<div created="20191203044614263" modified="20191203044614263" title="$:/state/tree/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.21/index.html/$:/themes/tiddlywiki/">
+<pre>show</pre>
+</div>
+<div created="20191203044552164" modified="20191203044636354" title="$:/state/tree/$:/temp/RemoteAssetSearch/">
+<pre>hide</pre>
+</div>
+<div created="20191203044553353" modified="20191203044553353" title="$:/state/tree/$:/temp/RemoteAssetSearch/$:/">
+<pre>show</pre>
+</div>
+<div created="20191203044554045" modified="20191203044554045" title="$:/state/tree/$:/temp/RemoteAssetSearch/$:/config/">
+<pre>show</pre>
+</div>
+<div created="20191203044535723" modified="20191203044546942" title="$:/state/tree/$:/temp/ServerConnection/">
+<pre>hide</pre>
+</div>
+<div created="20191203044537573" modified="20191203044537573" title="$:/state/tree/$:/temp/ServerConnection/https:/">
+<pre>show</pre>
+</div>
+<div created="20191203044539069" modified="20191203044539069" title="$:/state/tree/$:/temp/ServerConnection/https://">
+<pre>show</pre>
+</div>
+<div created="20191203044540781" modified="20191203044540781" title="$:/state/tree/$:/temp/ServerConnection/https://tiddlywiki.com/">
+<pre>show</pre>
+</div>
+<div created="20191203044541583" modified="20191203044541583" title="$:/state/tree/$:/temp/ServerConnection/https://tiddlywiki.com/library/">
+<pre>show</pre>
+</div>
+<div created="20191203044542264" modified="20191203044542264" title="$:/state/tree/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.21/">
+<pre>show</pre>
+</div>
+<div created="20191203112120999" list="" modified="20191203112155825" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -14963,7 +15108,7 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20191124023443522" modified="20191124023443524" title="$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary">
 <pre>ka</pre>
 </div>
-<div created="20191124023239474" modified="20191130142202564" title="$:/temp/search">
+<div created="20191124023239474" modified="20191203044410265" title="$:/temp/search">
 <pre></pre>
 </div>
 <div created="20191124023442888" modified="20191124023442888" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.21/index.html" url="https://tiddlywiki.com/library/v5.1.21/index.html">
@@ -15159,12 +15304,14 @@ $$</pre>
 *$$(\underset{\alpha \in I}{\cup} A_{\alpha})^{c}=\underset{\alpha \in I}{\cap}A_{\alpha}^c$$
 *$$(\underset{\alpha \in I}{\cap} A_{\alpha})^{c}=\underset{\alpha \in I}{\cup}A_{\alpha}^c$$</pre>
 </div>
-<div created="20191130140957255" modified="20191130144029114" title="Dedekind乘法">
-<pre>设实数$$x=(A_{1}|B_{1})\geqslant 0,y=(A_{2}|B_{2})\geqslant 0$$则$$z=(A_{3}|B_{3})$$，其中$$A_{3}=\mathbb{Q}\setminus B_{3},B_{3}=\{b_{1}b_{2}|b_{1}\in B_{1},b_{2}\in B_{2}\}$$。而若有
+<div created="20191130140957255" modified="20191201093023950" title="Dedekind乘法">
+<pre>设实数$$x=(A_{1}|B_{1})\geqslant 0,y=(A_{2}|B_{2})\geqslant 0$$则$$
+xy=(A_{3}|B_{3})$$其中$$
+A_{3}=\mathbb{Q}\setminus B_{3},B_{3}=\{b_{1}b_{2}|b_{1}\in B_{1},b_{2}\in B_{2}\}$$而若
 
-*$$x\geqslant0,y\leqslant0$$，那么$$z=xy=x(-y)$$
-*$$x\leqslant0,y\geqslant0$$，那么$$z=xy=(-x)y$$
-*$$x\leqslant0,y\leqslant0$$，那么$$z=xy=(-x)(-y)$$
+*$$x\geqslant0,y\leqslant0$$，那么$$xy=-x(-y)$$
+*$$x\leqslant0,y\geqslant0$$，那么$$xy=-(-x)y$$
+*$$x\leqslant0,y\leqslant0$$，那么$$xy=(-x)(-y)$$
 
 !! ''学习笔记''
 *&lt;div&gt;若有$$0&lt;a_{1}&lt;b_{1},0&lt;a_{2}&lt;b_{2}$$，是否能保证$$a_{1}a_{2}&lt;b_{1}b_{2}$$&lt;/div&gt;&lt;div&gt;''证明''：两边同除以$$a_{2}b_{1}$$，得到$$
@@ -15230,7 +15377,7 @@ $$有且仅有一个成立。&lt;/div&gt;&lt;div&gt;''证明''：由大小关系
 *&lt;div&gt;设$$x=(A_{1}|B_{1}),y=(A_{2}|B_{2}),z=(A_{3}|B_{3})$$为任意三个实数，若有$$x&lt;y,y&lt;z$$，则必有$$x&lt;z$$&lt;/div&gt;&lt;div&gt;''证明''：由集合包含关系的传递性立即得证&lt;/div&gt;
 *&lt;div&gt;实数系中既没有最大数，也没有最小数。&lt;/div&gt;&lt;div&gt;''证明''：对于任意实数$$x=(\cdots a|b\cdots)$$，取$$y=(\cdots a+1|b+1\cdots)$$，那么$$x&lt;y$$&lt;/div&gt;</pre>
 </div>
-<div created="20191130031107084" modified="20191130144032832" title="Dedekind实数理论">
+<div created="20191130031107084" modified="20191201093214808" title="Dedekind实数理论">
 <pre>!! ''实数''
 称每一个有理数全体的[[分割|Dedekind分割]]为''实数''，记作$$
 a=(A\vert B)$$
@@ -15253,8 +15400,62 @@ x&lt;z&lt;y$$
 !!''实数系的运算''
 </pre>
 </div>
-<div created="20191130143500188" modified="20191130144026524" title="Dedekind除法">
-<pre>设实数$$x=(A_{1}|B_{1})\geqslant 0,y=(A_{2}|B_{2})\geqslant 0$$则$$z=(A_{3}|B_{3})$$，其中$$A_{3}=\mathbb{Q}\setminus B_{3},B_{3}=\{b_{1}b_{2}|b_{1}\in B_{1},b_{2}\in B_{2}\}$$</pre>
+<div created="20191130143500188" modified="20191201093144307" title="Dedekind除法">
+<pre>设实数$$x=(A_{1}|B_{1})\geqslant 0,y=(A_{2}|B_{2})&gt; 0$$则$$
+\frac{x}{y}=(A_{3}|B_{3})$$其中$$
+A_{3}=\{\frac{a_{1}}{b_{2}}|a_{1}\in A_{1},b_{2}\in B_{2}\},B_{3}=\mathbb{Q}\setminus A_{3}$$若
+
+*$$x=(A_{1}|B_{1})\geqslant 0,y=(A_{2}|B_{2})&lt; 0$$，则$$
+\frac{x}{y}=-\frac{x}{-y}$$
+*$$x=(A_{1}|B_{1})\leqslant 0,y=(A_{2}|B_{2})&gt; 0$$，则$$
+\frac{x}{y}=-\frac{-x}{y}$$
+*$$x=(A_{1}|B_{1})\leqslant 0,y=(A_{2}|B_{2})&lt;0$$，则$$
+\frac{x}{y}=\frac{-x}{-y}$$
+</pre>
+</div>
+<div created="20191202114653317" modified="20191202114653384" title="Draft of 'LaTeX多行格式'">
+<pre>采用多行格式可以用来生成矩阵、分段函数、表格等。
+在数学模式下生成多行格式可以采用如下方式：
+
+```
+\begin{类型}{对齐方式} 
+a11 &amp; a12 \\
+a21 &amp; a22 
+\end{类型}
+```
+其中，`&amp;`分离不同的元素，`\\`代表换行。在\begin前加入`left(`和在\end后加入`right)`可以生成大括号。在\begin后和各行间加入`\hline`可以生成横线
+
+类型参数可以替换成
+
+*`array`  需要对齐方式参数
+*`cases` 不需要对齐方式参数。自动生成左括号，实例参阅
+**[[分段函数|LaTeX分段函数]]
+**[[线性方程组|LaTeX线性方程组]]
+*`matrix` 不需要对齐方式参数。实例参阅[[矩阵|LaTeX矩阵]]。不同风格的矩阵需要不同的子参数
+**`matrix` 
+**`matrix` 
+**`matrix` **`matrix` 
+*`tabular` 表格
+对齐方式内参数有
+
+*`l` 左对齐
+*`c` 居中对齐
+*`r` 右对齐
+*`|` 两列间加入实线
+*`:` 两列间加入虚线
+其中`l`，`c`，`r`每个字母代表每列的对齐方式，两个字母间的`|`代表两列间的竖线。
+
+
+!!!具体实例参阅：
+
+*[[矩阵|LaTeX矩阵]]
+*[[表格|LaTeX表格]]
+*[[分段函数|LaTeX分段函数]]
+*[[线性方程组|LaTeX线性方程组]]
+
+
+
+</pre>
 </div>
 <div created="20191011152537781" modified="20191013140506653" title="Hausdorff定理">
 <pre>*度量空间的列紧集是[[完全有界]]的
@@ -15290,7 +15491,7 @@ $$k=1$$时，称$$a$$为$$f(x)$$的''单根''
 $$k\geqslant2$$时，称$$a$$为$$f(x)$$的''重根
 ''</pre>
 </div>
-<div created="20190901093134765" modified="20191124025205504" tags="其他相关" title="LaTeX">
+<div created="20190901093134765" modified="20191202114118221" tags="其他相关" title="LaTeX">
 <pre>$$\LaTeX$$是一种$$\TeX$$的高级宏集，它提供了丰富且易用的指令，更多$$\TeX$$相关背景参阅[[TeX概述]]。
 
 !! ''源文件''
@@ -15376,7 +15577,7 @@ $$\LaTeX$$排版指令包括于一个纯文本的源文件内，关于源文件�
 
 </pre>
 </div>
-<div created="20190914025057784" modified="20190927103533853" title="LaTex二元关系">
+<div created="20190914025057784" modified="20191202113922645" title="LaTeX二元关系">
 <pre>!! ''偏序关系''
 
 二元关系的否定一般只需要在LaTeX代码前加''n''，''not''或''\not''，效果不好时可以尝试''\cancel''
@@ -15416,7 +15617,7 @@ $$\LaTeX$$排版指令包括于一个纯文本的源文件内，关于源文件�
 | $$\Diamond$$ | \Diamond | $$\Box$$ | \Box |
 </pre>
 </div>
-<div created="20190917144309760" modified="20190927143755543" title="LaTex函数">
+<div created="20190917144309760" modified="20191202113933474" title="LaTeX函数">
 <pre>常见函数的~LaTex写法即在函数名前加入`\`即可。不加时函数名称即普通的英文，数学模式下的英文为斜体；加入后成为LaTeX命令，函数名称将变成正体，并且允许使用`_`和`^`实现常见的格式。
 
 | !函数名 | !~LaTex | !函数名 | !~LaTex |
@@ -15558,24 +15759,35 @@ end{itemize}
 
 </pre>
 </div>
-<div created="20190918082933005" modified="20190923054233729" title="LaTeX多行格式">
+<div created="20190918082933005" modified="20191202132502636" title="LaTeX多行格式">
 <pre>采用多行格式可以用来生成矩阵、分段函数、表格等。
 在数学模式下生成多行格式可以采用如下方式：
 
 ```
-\begin{}{对齐方式} 
+\begin{类型}{对齐方式} 
 a11 &amp; a12 \\
 a21 &amp; a22 
-\end{}
+\end{类型}
 ```
 其中，`&amp;`分离不同的元素，`\\`代表换行。在\begin前加入`left(`和在\end后加入`right)`可以生成大括号。在\begin后和各行间加入`\hline`可以生成横线
 
-`begin{}`内的参数可以替换成
+!! ''类型''
+类型参数可以替换成
 
-*`array` 
-*`cases` 不需要手动输入左括号，参阅[[分段函数|LaTeX分段函数]]和[[线性方程组|LaTeX线性方程组]]
-*`matrix` 矩阵，调整参数自动形成不同风格的矩阵，参阅[[矩阵|LaTeX矩阵]]
+*`array`  需要对齐方式参数
+*`cases` 不需要对齐方式参数。自动生成左括号，实例参阅
+**[[分段函数|LaTeX分段函数]]
+**[[线性方程组|LaTeX线性方程组]]
+*`matrix` 不需要对齐方式参数。实例参阅[[矩阵|LaTeX矩阵]]。不同风格的矩阵需要不同的子参数
+**`matrix`  朴素的矩阵
+**`pmatrix`  圆括号
+**`bmatrix`  方括号
+**`Bmatrix`  花括号
+**`vmatrix`  行列式
+**`Vmatrix`  矩阵范数
+*`aligned` 连等式 实例参阅[[连等式|LaTeX连等式]] 
 *`tabular` 表格
+!! ''对齐方式''
 对齐方式内参数有
 
 *`l` 左对齐
@@ -15584,15 +15796,6 @@ a21 &amp; a22
 *`|` 两列间加入实线
 *`:` 两列间加入虚线
 其中`l`，`c`，`r`每个字母代表每列的对齐方式，两个字母间的`|`代表两列间的竖线。
-
-
-!!!具体实例参阅：
-
-*[[矩阵|LaTeX矩阵]]
-*[[表格|LaTeX表格]]
-*[[分段函数|LaTeX分段函数]]
-*[[线性方程组|LaTeX线性方程组]]
-
 
 
 </pre>
@@ -15750,7 +15953,7 @@ a21 &amp; a22
 | $$\gimel$$ |\gimel|
 </pre>
 </div>
-<div created="20190910130716649" modified="20190914024927966" title="LaTex希腊字母">
+<div created="20190910130716649" modified="20191202114004809" title="LaTeX希腊字母">
 <pre>| !小写 | !~LaTex  | !大写 | !~LaTex | !音标 |
 | $$\alpha$$ | \alpha &lt;br&gt; &lt;&lt;copy-to-clipboard &quot; \alpha &quot;&gt;&gt; | $$\Alpha$$ |  \Alpha &lt;br&gt; &lt;&lt;copy-to-clipboard &quot; \Alpha &quot;&gt;&gt; | /'ælfə/ |
 | $$\beta$$ | \beta &lt;br&gt; &lt;&lt;copy-to-clipboard &quot;\beta &quot;&gt;&gt; | $$\Beta$$  | \Beta &lt;br&gt; &lt;&lt;copy-to-clipboard &quot;\Beta &quot;&gt;&gt; | /'beɪtə/ |
@@ -15821,7 +16024,7 @@ a21 &amp; a22
 | $$\iint$$ |\iint | $$\oiint$$ |\oiint |
 | $$\iiint$$ |\iiint | $$\oiiint$$ |\oiiint |</pre>
 </div>
-<div created="20190917143118190" modified="20190927132601340" title="LaTex括号与上下标">
+<div created="20190917143118190" modified="20191202114021250" title="LaTeX括号与上下标">
 <pre>!! ''括号''
 | !效果 | !~LaTex | !效果 | !~LaTex |
 | { | \{ | } | \} |
@@ -16248,26 +16451,26 @@ end{appendix}
 ```
 </pre>
 </div>
-<div created="20190918080714584" modified="20190927082304558" tags="" title="LaTeX符号">
+<div created="20190918080714584" modified="20191202114243578" tags="" title="LaTeX符号">
 <pre>!!''字母''
-*[[希腊字母|LaTex希腊字母]]
+*[[希腊字母|LaTeX希腊字母]]
 *[[希伯来语|LaTeX希伯来语]]
 
 !!''数学符号''
-*[[集合|LaTex集合]]
+*[[集合|LaTeX集合]]
 *[[逻辑|LaTeX逻辑]]
 *[[几何|LaTeX几何]]
-*[[二元关系|LaTex二元关系]]
-*[[函数|LaTex函数]]
+*[[二元关系|LaTeX二元关系]]
+*[[函数|LaTeX函数]]
 *[[微积分|LaTeX微积分]]
 *[[运算符|LaTeX运算符]]
 
 !!''其他''
 *[[常用字符的特殊表达|LaTeX常用字符的特殊表达]]
-*[[箭头|LaTex箭头]]
-*[[括号与上下标|LaTex括号与上下标]]</pre>
+*[[箭头|LaTeX箭头]]
+*[[括号与上下标|LaTeX括号与上下标]]</pre>
 </div>
-<div created="20190913040750651" modified="20190918062224745" title="LaTex箭头">
+<div created="20190913040750651" modified="20191202114033152" title="LaTeX箭头">
 <pre>!! ''常见箭头''
 
 | !效果 | !Latex | !效果 | !Latex |
@@ -16438,6 +16641,25 @@ $$
 | $$\iint$$ |\iint | $$\oiint$$ |\oiint |
 | $$\iiint$$ |\iiint | $$\oiiint$$ |\oiiint |</pre>
 </div>
+<div created="20191202132245356" modified="20191202132456296" title="LaTeX连等式">
+<pre>连等式可以采用`aligned`参数，例如
+
+```
+$$
+\begin{aligned}{} 
+f &amp; =a_{1}+a_{2}+a_{3} \\
+ &amp; =b_{1}+b_{2}+b_{3}
+\end{aligned}
+$$
+```
+效果为
+$$
+\begin{aligned}{} 
+f &amp; =a_{1}+a_{2}+a_{3} \\
+ &amp; =b_{1}+b_{2}+b_{3}
+\end{aligned}
+$$</pre>
+</div>
 <div created="20190918053132611" modified="20191020115521582" tags="" title="LaTeX逻辑">
 <pre>| !说明 | !效果 | !Latex | !说明 | !效果 | !Latex |
 | !因为 | $$\because$$ |\because | !所以 | $$\therefore$$ |\therefore |
@@ -16524,7 +16746,7 @@ $$
 
 </pre>
 </div>
-<div created="20190918053054391" modified="20191130060123951" tags="" title="LaTex集合">
+<div created="20190918053054391" modified="20191202113953289" tags="" title="LaTeX集合">
 <pre>| !效果 | !~LaTex | !效果 | !~LaTex |
 | $$\in$$ |\in | $$\notin$$ |\notin |
 | $$\subset$$ |\subset | $$\not\subset$$ |\not\subset |
@@ -17616,9 +17838,7 @@ $$
 <pre></pre>
 </div>
 <div created="20191123122942036" modified="20191130092341765" title="实数">
-<pre>
-
-!! ''性质''
+<pre>!! ''性质''
 *''代数结构''：全体实数构成一个[[数域]]，并称它为实数域。因此实数域满足数域的九条公理
 *''序结构''：全体实数关于[[偏序关系]]$$\leqslant$$形成一个[[全序集]]，也即满足自反性、反对称性、传递性、全序性
 *全体实数构成了一个[[有序域]]，也即实数在其是[[域]]和[[全序集]]的前提下，满足偏序关系对加法和乘法的相容性
@@ -17634,14 +17854,18 @@ $$
 令$$f(x)\in \mathbb{R}$$且$$\partial f(x) \geqslant1$$，则$$f(x)$$在$$\mathbb{R}$$上可以唯一分解成一次因式和二次不可约因式的乘积
 </pre>
 </div>
-<div created="20191129113449084" modified="20191130092337336" tags="" title="实数理论">
+<div created="20191129113449084" modified="20191202154251616" tags="" title="实数理论">
 <pre>在实数理论建立之前，[[数]]被扩充为[[有理数]]，具体过程为：
 
-#从具体事物的数量中抽象出''正整数''，进而通过事物数量的累加过程中定义了''加法''
-#从加法的逆运算中定义了''减法''，进而定义了''0''和''负整数''
-#从面积计算的过程中定义了''乘法''
-#从乘法的逆运算中定义了''除法''，进而定义了''分数''，''小数''，并将这些数统称为''有理数
-''
+#从具体事物的数量中抽象出''非负整数''
+
+#从事物数量的累加中定义了''加法''，从面积计算中定义了''乘法''
+
+#从加法的逆运算中定义了''减法''。减法运算中出现了“减不够”的情形，用负号表示这类数，并称它们为''负整数''
+
+#从乘法的逆运算中定义了''除法''，除法运算中出现了“除不下”的情形，用''分数''表示这类数，将所有能用分数表示的数统称为''有理数''
+
+
 后来又发现[[存在|无理数的存在性]]不属于有理数的数（被称为无理数），实数理论就是无理数的引入和有理数上性质（大小关系）的推广过程，也即[[有理数]]扩充到[[实数]]的过程，主要的方法有：
 
 *[[Dedekind实数理论]]
@@ -18236,7 +18460,7 @@ $$
 记作$$z=\{x,y\}
 $$</pre>
 </div>
-<div created="20191129120724105" modified="20191129122554228" title="无理数的存在性">
+<div created="20191129120724105" modified="20191203115843592" title="无理数的存在性">
 <pre>!!! ''例1：$$\sqrt{2}$$不是有理数''
 
 !!! ''证明''
@@ -18248,10 +18472,36 @@ q^{2}=2r^{2}$$
 因此$$2|q$$，这与$$(p,q)=1$$矛盾！
 
 !!! ''例2：$$\log_2{5}$$不是有理数''
+
+!!! ''引理''
+设$$x$$是无限不循环小数，那么对于$$m\geqslant 2,m\in \mathbb{Z}$$，$$10^{m}x-x$$也为无限不循环小数
+
+!!!! ''证明''
+若不然，则$$10^{m}x-x$$为有限位小数或无限循环小数。将$$x$$小数点后第$$m$$位记作$$x_{m}$$
+
+*若$$10^{m}x-x$$为有限位小数，假设有$$k$$位小数，那么对于$$K&gt;k,K\in \mathbb{Z}$$，$$
+x_{K}\equiv0,x_{K}\equiv9$$必成立其一。
+**若$$x_{K}\equiv0$$，则有$$x_{K+m}\equiv x_{K}$$，即$$x$$是循环小数，矛盾
+**若$$x_{K}\equiv9$$，则$$x_{K+m}\equiv 9,x_{K}\equiv 0$$，矛盾
+*若$$10^{m}x-x$$为无限循环小数，记作$$y$$。假设$$y$$的循环周期为$$t$$，那么$$10^{t}y-y$$为有限位小数，记作$$z$$。代入得到$$(10^{m}-1)(10^{t}-1)x=z
+$$设$$z$$有$$k$$位小数，那么对于$$K&gt;k,K\in \mathbb{Z}$$$$
+x_{l+m+K}-x_{l+K}-x_{m+K}+x_{k}\equiv0,x_{l+m+K}-x_{l+K}-x_{m+K}+x_{k}\equiv9$$必成立其一。
+**若$$x_{l+m+K}-x_{l+K}-x_{m+K}+x_{k}\equiv0$$，
+**若$$x_{l+m+K}-x_{l+K}-x_{m+K}+x_{k}\equiv9$$，则$$
+x_{l+m+K}+x_{k}\equiv9,x_{l+k}+x_{m+k}\equiv 0$$也即$$x_{l+k}\equiv x_{m+k}\equiv 0$$矛盾
+
+
+
 !!! ''证明''
 若不然，假设$$\log_2{5}$$是有理数，那么$$
 \log_2{5}=\frac{p}{q}，p,q\in\Z,q\neq0,(p,q)=1.$$也即$$
-2^{p}=5^{q}$$而$$2^{p}$$是偶数，$$5^{q}$$是奇数，矛盾！</pre>
+2^{p}=5^{q}$$而$$2^{p}$$是偶数，$$5^{q}$$是奇数，矛盾！
+
+!!! ''例3：无限不循环小数不是有理数''
+!!! ''证明''
+若不然，假设无限不循环小数$$x$$是有理数，那么$$
+x=\frac{p}{q}，p,q\in\Z,q\neq0,(p,q)=1.$$也即$$p=xq.$$由于$$q=x^{m}-x-\cdots-x$$，根据引理，$$x$$也是无限不循环小数，矛盾
+</pre>
 </div>
 <div created="20191016141728778" modified="20191016142510846" title="无穷公理">
 <pre>无穷公理简单说，就是存在一集合$$x$$，它有无穷多元素，严格定义如下：
@@ -18448,12 +18698,12 @@ $$
 *''对乘法的相容性''$$
 x\leqslant y\Longrightarrow xz\leqslant yz,\forall z\in\R^{+}=\{z\in\R，0\leqslant z\}$$</pre>
 </div>
-<div created="20191129112611246" modified="20191129121045239" title="有理数">
-<pre>称[[数]]$$a$$为一有理数，如果满足$$
-a=\frac{p}{q}，p,q\in\Z,q\neq0,(p,q)=1$$
+<div created="20191129112611246" modified="20191202143014155" title="有理数">
+<pre>称[[数]]$$a$$为一''有理数''，如果满足$$
+\exist p,q\in\Z,q\neq0,(p,q)=1,s.t.a=\frac{p}{q}$$
 
 !! ''学习笔记''
-*有理数域是最小的[[数域]]</pre>
+*全体有理数构成[[数域]]，并且它是最小的[[数域]]</pre>
 </div>
 <div created="20190910092015105" modified="20191125064717379" title="有理数域上的因式分解">
 <pre>*令$$f(x)\in\Z[x],\partial f(x) \geqslant1.$$则$$f(x)$$在$$\mathbb{Q}$$上可约当且仅当$$f(x)$$在$$\Z$$上可约。由[[本原多项式]]的推论1立即可得
