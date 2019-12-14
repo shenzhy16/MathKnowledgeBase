@@ -64,7 +64,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 	margin: 20px auto 0;
-	width: 200px;
+	width: 250px;
 	text-align: center;
 	color: #333333;
 	fill: #333333;
@@ -536,9 +536,13 @@ Error message and password prompt
 
 <li>Dedekind加法</li>
 
+<li>Dedekind原理</li>
+
 <li>Dedekind大小关系</li>
 
 <li>Dedekind实数理论</li>
+
+<li>Dedekind实数稠密性</li>
 
 <li>Dedekind除法</li>
 
@@ -889,6 +893,10 @@ Error message and password prompt
 <li>斐波那契数列</li>
 
 <li>无序对公理</li>
+
+<li>无理数</li>
+
+<li>无理数的充要条件是无限不循环小数</li>
 
 <li>无理数的存在性</li>
 
@@ -14086,7 +14094,7 @@ Error message and password prompt
 <div created="20191124020852970" modified="20191124020856423" title="$:/SiteTitle">
 <pre>数学知识库</pre>
 </div>
-<div created="20191203052137065" modified="20191203112135939" tags="$:/tags/RawMarkupWikified/TopBody" title="$:/SplashScreen" type="text/vnd.tiddlywiki">
+<div created="20191203052137065" modified="20191203130632891" tags="$:/tags/RawMarkupWikified/TopBody" title="$:/SplashScreen" type="text/vnd.tiddlywiki">
 <pre>\import [[$:/core/ui/PageMacros]] [all[shadows+tiddlers]tag[$:/tags/Macro]!has[draft.of]]
 \rules only filteredtranscludeinline transcludeinline macrocallinline
 &lt;div class=&quot;tc-remove-when-wiki-loaded&quot;&gt;
@@ -14098,7 +14106,7 @@ Error message and password prompt
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 	margin: 20px auto 0;
-	width: 200px;
+	width: 250px;
 	text-align: center;
 	color: &lt;&lt;colour foreground&gt;&gt;;
 	fill: &lt;&lt;colour foreground&gt;&gt;;
@@ -14207,13 +14215,13 @@ html body.tc-body {
 <div created="20191124021202245" modified="20191203052818622" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/System</pre>
 </div>
-<div created="20191124021157202" modified="20191203115853137" title="$:/state/tab/sidebar--595412856">
+<div created="20191124021157202" modified="20191203133700189" title="$:/state/tab/sidebar--595412856">
 <pre>知识库目录</pre>
 </div>
 <div created="20191203044200360" modified="20191203044230019" title="$:/state/toc/知识库目录-其他相关--1082775775">
 <pre>close</pre>
 </div>
-<div created="20191124025641124" modified="20191203044221577" title="$:/state/toc/知识库目录-其他相关-670268653">
+<div created="20191124025641124" modified="20191203121705085" title="$:/state/toc/知识库目录-其他相关-670268653">
 <pre>close</pre>
 </div>
 <div created="20191124074322191" modified="20191124074322882" title="$:/state/toc/知识库目录-其他相关-937382419">
@@ -14222,8 +14230,8 @@ html body.tc-body {
 <div created="20191203044159094" modified="20191203112142327" title="$:/state/toc/知识库目录-基础数学--1082775775">
 <pre>open</pre>
 </div>
-<div created="20191124024428795" modified="20191203111712789" title="$:/state/toc/知识库目录-基础数学-670268653">
-<pre>close</pre>
+<div created="20191124024428795" modified="20191203121707014" title="$:/state/toc/知识库目录-基础数学-670268653">
+<pre>open</pre>
 </div>
 <div created="20191124023231471" modified="20191124024401538" title="$:/state/toc/知识库目录-数学-670268653">
 <pre>open</pre>
@@ -14288,7 +14296,7 @@ html body.tc-body {
 <div created="20191203044542264" modified="20191203044542264" title="$:/state/tree/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.21/">
 <pre>show</pre>
 </div>
-<div created="20191203112120999" list="" modified="20191203112155825" title="$:/StoryList">
+<div created="20191203120251790" list="" modified="20191203134205169" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -15365,6 +15373,9 @@ x+y=y+x$$&lt;/div&gt;&lt;div&gt;''证明''：由有理数加法的交换律立�
 !! ''学习笔记''
 *&lt;div&gt;''Q''：如此定义是否会出现上下集同时出现取到最大值和最小值的问题？&lt;/div&gt;&lt;div&gt;''A''：同时取到最大值和最小值要求加法运算的两个实数均能同时取到上下集，而这不符合[[实数|Dedekind实数理论]]的定义</pre>
 </div>
+<div created="20191203134218928" modified="20191203134457194" title="Dedekind原理">
+<pre>若在[[实数域|实数]]上作[[Dedekind分割]]，那么要么下类中有最大值，要么上类中有最小值</pre>
+</div>
 <div created="20191130130858356" modified="20191130133928011" title="Dedekind大小关系">
 <pre>设$$x=(A_{1}|B_{1}),y=(A_{2}|B_{2})$$，则实数系上的大小关系定义如下：
 
@@ -15377,7 +15388,7 @@ $$有且仅有一个成立。&lt;/div&gt;&lt;div&gt;''证明''：由大小关系
 *&lt;div&gt;设$$x=(A_{1}|B_{1}),y=(A_{2}|B_{2}),z=(A_{3}|B_{3})$$为任意三个实数，若有$$x&lt;y,y&lt;z$$，则必有$$x&lt;z$$&lt;/div&gt;&lt;div&gt;''证明''：由集合包含关系的传递性立即得证&lt;/div&gt;
 *&lt;div&gt;实数系中既没有最大数，也没有最小数。&lt;/div&gt;&lt;div&gt;''证明''：对于任意实数$$x=(\cdots a|b\cdots)$$，取$$y=(\cdots a+1|b+1\cdots)$$，那么$$x&lt;y$$&lt;/div&gt;</pre>
 </div>
-<div created="20191130031107084" modified="20191201093214808" title="Dedekind实数理论">
+<div created="20191130031107084" modified="20191203134459918" title="Dedekind实数理论">
 <pre>!! ''实数''
 称每一个有理数全体的[[分割|Dedekind分割]]为''实数''，记作$$
 a=(A\vert B)$$
@@ -15390,14 +15401,21 @@ a=(A\vert B)$$
 *[[除法|Dedekind除法]]
 
 !!''性质''
+*[[稠密性|Dedekind实数稠密性]]
+*[[Dedekind原理]]
 
-
-!!''实数系的稠密性''
-设实数$$x=(A_{1}|B_{1}),y=(A_{2}|B_{2})$$且$$x&lt;y$$，则必存在有理数$$z$$，满足$$
+</pre>
+</div>
+<div created="20191203133649970" modified="20191203134014221" title="Dedekind实数稠密性">
+<pre>设实数$$x=(A_{1}|B_{1}),y=(A_{2}|B_{2})$$且$$x&lt;y$$，则必存在''有理数''$$z$$，满足$$
 x&lt;z&lt;y$$
-''证明'' 由于$$x&lt;y$$，根据定义有$$A_{1}\subsetneq A_{2}$$，则必存在$$x_{0}$$，满足$$x_{0}\notin A_{1}, x_{0}\in A_{2}$$。假定$$y$$的分割中下类无最大值（若有则将其移入上类），取$$z=(\cdots x_{0}\vert\cdots)=(A_{3}|B_{3})$$，那么$$A_{1}\subsetneq A_{3}$$，即$$x&lt;z$$。而$$A_{2}$$中无最大值，也即$$\exist c\in A_{2},s.t. c&gt;x_{0}$$，那么$$A_{3}\subsetneq A_{2}$$，即$$z&lt;y$$
 
-!!''实数系的运算''
+!!''证明'' 
+假定$$y$$的分割中下类无最大值（若有则将其移入上类）。由于$$x&lt;y$$，根据定义有$$A_{1}\subsetneq A_{2}$$，则必存在$$x_{0}$$，满足$$x_{0}\notin A_{1}, x_{0}\in A_{2}$$。取$$z=(\cdots x_{0}\vert\cdots)=(A_{3}|B_{3})$$，那么$$A_{1}\subsetneq A_{3}$$，即$$x&lt;z$$。
+
+而$$A_{2}$$中无最大值，也即$$\exist c\in A_{2},s.t. c&gt;x_{0}$$，那么$$A_{3}\subsetneq A_{2}$$，即$$z&lt;y$$
+
+综上$$x&lt;z&lt;y$$
 </pre>
 </div>
 <div created="20191130143500188" modified="20191201093144307" title="Dedekind除法">
@@ -16024,17 +16042,25 @@ a21 &amp; a22
 | $$\iint$$ |\iint | $$\oiint$$ |\oiint |
 | $$\iiint$$ |\iiint | $$\oiiint$$ |\oiiint |</pre>
 </div>
-<div created="20190917143118190" modified="20191202114021250" title="LaTeX括号与上下标">
+<div created="20190917143118190" modified="20191203121657346" title="LaTeX括号与上下标">
 <pre>!! ''括号''
 | !效果 | !~LaTex | !效果 | !~LaTex |
-| { | \{ | } | \} |
-| ( | \left( | ) | \right) |
-| $$\lgroup$$ | \lgroup | $$\rgroup$$ | \rgroup |
+| { |\{ | } |\} |
+| ( |\left( | ) |\right) |
+| $$\lgroup$$ |\lgroup | $$\rgroup$$ | \rgroup |
+| $$\lfloor$$ |\lfloor| $$\rfloor$$ |\rfloor|
+|$$\lceil$$|\lceil| $$\rceil$$ |\ceil|
 
 对于一个纵向较长的数学公式，直接使用括号效果较差，例如
 $$(\frac{a}{x} )^2
 $$
-而采用`\left(`和`\right)`排版得到的效果较好，例如
+而采用`\left`和`\right`加括号指令排版则能得到的效果较好，例如
+
+```
+$$\left(\frac{a}{x} \right)^2
+$$
+```
+效果为
 $$\left(\frac{a}{x} \right)^2
 $$
 
@@ -17854,8 +17880,9 @@ $$
 令$$f(x)\in \mathbb{R}$$且$$\partial f(x) \geqslant1$$，则$$f(x)$$在$$\mathbb{R}$$上可以唯一分解成一次因式和二次不可约因式的乘积
 </pre>
 </div>
-<div created="20191129113449084" modified="20191202154251616" tags="" title="实数理论">
-<pre>在实数理论建立之前，[[数]]被扩充为[[有理数]]，具体过程为：
+<div created="20191129113449084" modified="20191203134502940" tags="" title="实数理论">
+<pre>!! ''有理数''
+在实数理论建立之前，[[数]]被扩充为[[有理数]]，具体过程为：
 
 #从具体事物的数量中抽象出''非负整数''
 
@@ -17865,13 +17892,15 @@ $$
 
 #从乘法的逆运算中定义了''除法''，除法运算中出现了“除不下”的情形，用''分数''表示这类数，将所有能用分数表示的数统称为''有理数''
 
-
-后来又发现[[存在|无理数的存在性]]不属于有理数的数（被称为无理数），实数理论就是无理数的引入和有理数上性质（大小关系）的推广过程，也即[[有理数]]扩充到[[实数]]的过程，主要的方法有：
+#从四则运算中定义了''指对数运算''，在指对数运算中发现[[存在|无理数的存在性]]一类不属于有理数的数（即它们不能用分数表示）；在用小数表示数的过程中，发现无限不循环小数不是有理数；
+!! ''实数理论''
+实数理论就是[[无理数]]的引入和有理数上性质（大小关系）的推广过程，也即[[有理数]]扩充到[[实数]]的过程，主要的方法有：
 
 *[[Dedekind实数理论]]
 *[[Bolzano实数理论]]
 *[[Cantor实数理论]]
-</pre>
+!! ''复数''
+在实数理论之后，又在开方运算中出现了“开不了”的情形，用$$i$$表示这类数，并假设$$i^{2}=-1$$，称它们为''纯虚数''。在解一元二次方程中出现了纯虚数和实数加减的情形，用$$a+bi$$表示这类数，统称为''复数''</pre>
 </div>
 <div created="20191111143111160" modified="20191111145341939" title="对数不等式">
 <pre>对于$$\forall x&gt;-1$$，成立
@@ -18460,23 +18489,40 @@ $$
 记作$$z=\{x,y\}
 $$</pre>
 </div>
-<div created="20191129120724105" modified="20191203115843592" title="无理数的存在性">
-<pre>!!! ''例1：$$\sqrt{2}$$不是有理数''
+<div created="20191203125426238" modified="20191203132208857" title="无理数">
+<pre>称[[实数]]$$a$$是''无理数''，若它不是[[有理数]]。
+
+存在性参阅[[无理数的存在性]]
+
+!! ''充要条件''
+*[[无理数的充要条件是无限不循环小数]]
+
+</pre>
+</div>
+<div created="20191203131825885" modified="20191203133242173" title="无理数的充要条件是无限不循环小数">
+<pre>!! ''必要性''
+即证明无理数是无限不循环小数
+
+!!!''证明''
+若不然，即无理数$$x$$不是无限不循环小数，那么无理数为有限位小数或无限循环小数
+
+*若为有限位小数，假设$$k$$位，那么$$
+x=\frac{10^{k}x}{10^{k}}$$即$$x$$为有理数，矛盾
+*若为无限循环小数，假设周期为$$t$$，那么$$
+x=\frac{10^{t}x-x}{10^{t}-1}$$即$$x$$为有理数，矛盾
+
+
+!!''充分性''
+即证明无限不循环小数是无理数
 
 !!! ''证明''
-若不然，假设$$\sqrt{2}$$是有理数，那么$$
-\sqrt{2}=\frac{p}{q}，p,q\in\Z,q\neq0,(p,q)=1.$$也即$$
-p^{2}=2q^{2}
-$$因此$$2|p$$，设$$p^{2}=4r^{2},r\in\Z$$，那么$$
-q^{2}=2r^{2}$$
-因此$$2|q$$，这与$$(p,q)=1$$矛盾！
-
-!!! ''例2：$$\log_2{5}$$不是有理数''
+若不然，假设无限不循环小数$$x$$是有理数，那么$$
+x=\frac{p}{q}，p,q\in\Z,q\neq0,(p,q)=1.$$也即$$p=xq.$$由于$$q=10^{m}-1-\cdots-1$$，根据引理，$$x$$也是无限不循环小数，矛盾
 
 !!! ''引理''
 设$$x$$是无限不循环小数，那么对于$$m\geqslant 2,m\in \mathbb{Z}$$，$$10^{m}x-x$$也为无限不循环小数
 
-!!!! ''证明''
+!!! ''引理证明''
 若不然，则$$10^{m}x-x$$为有限位小数或无限循环小数。将$$x$$小数点后第$$m$$位记作$$x_{m}$$
 
 *若$$10^{m}x-x$$为有限位小数，假设有$$k$$位小数，那么对于$$K&gt;k,K\in \mathbb{Z}$$，$$
@@ -18490,18 +18536,24 @@ x_{l+m+K}-x_{l+K}-x_{m+K}+x_{k}\equiv0,x_{l+m+K}-x_{l+K}-x_{m+K}+x_{k}\equiv9$$�
 **若$$x_{l+m+K}-x_{l+K}-x_{m+K}+x_{k}\equiv9$$，则$$
 x_{l+m+K}+x_{k}\equiv9,x_{l+k}+x_{m+k}\equiv 0$$也即$$x_{l+k}\equiv x_{m+k}\equiv 0$$矛盾
 
+</pre>
+</div>
+<div created="20191129120724105" modified="20191203125327336" title="无理数的存在性">
+<pre>!!! ''例1：$$\sqrt{2}$$不是有理数''
 
+!!! ''证明''
+若不然，假设$$\sqrt{2}$$是有理数，那么$$
+\sqrt{2}=\frac{p}{q}，p,q\in\Z,q\neq0,(p,q)=1.$$也即$$
+p^{2}=2q^{2}
+$$因此$$2|p$$，设$$p^{2}=4r^{2},r\in\Z$$，那么$$
+q^{2}=2r^{2}$$
+因此$$2|q$$，这与$$(p,q)=1$$矛盾！
 
+!!! ''例2：$$\log_2{5}$$不是有理数''
 !!! ''证明''
 若不然，假设$$\log_2{5}$$是有理数，那么$$
 \log_2{5}=\frac{p}{q}，p,q\in\Z,q\neq0,(p,q)=1.$$也即$$
-2^{p}=5^{q}$$而$$2^{p}$$是偶数，$$5^{q}$$是奇数，矛盾！
-
-!!! ''例3：无限不循环小数不是有理数''
-!!! ''证明''
-若不然，假设无限不循环小数$$x$$是有理数，那么$$
-x=\frac{p}{q}，p,q\in\Z,q\neq0,(p,q)=1.$$也即$$p=xq.$$由于$$q=x^{m}-x-\cdots-x$$，根据引理，$$x$$也是无限不循环小数，矛盾
-</pre>
+2^{p}=5^{q}$$而$$2^{p}$$是偶数，$$5^{q}$$是奇数，矛盾！</pre>
 </div>
 <div created="20191016141728778" modified="20191016142510846" title="无穷公理">
 <pre>无穷公理简单说，就是存在一集合$$x$$，它有无穷多元素，严格定义如下：
