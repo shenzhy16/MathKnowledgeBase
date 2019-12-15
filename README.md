@@ -38,10 +38,12 @@
 ###  帮助和完善
 如果您对我的项目感兴趣，我非常欢迎您帮助完善它！
 
-在编辑之前，您可能需要学习一些TiddlyWiki和$$\LaTeX$$的知识
+在编辑之前，您可能需要学习一些TiddlyWiki和LaTeX的知识
 
 * 在知识库中搜索`TiddlyWiki使用指南`​可以查阅到TiddlyWiki的常用编辑语法，它包括了大部分使用场景。若要了解更多，可以访问其[官方网站](https://tiddlywiki.com/)
 * 在知识库中搜索`LaTeX`可以查阅到$$\LaTeX$$的绝大多数语法。事实上，知识库中的公式使用的是$$\KaTeX$$插件，它兼容大部分$$\LaTeX$$语法。查阅更多$$\KaTeX$$语法，可以访问其[官方网站](https://katex.org/docs/supported.html)
+* 在知识库中搜索`TiddlyWiki使用指南`可以查阅到TiddlyWiki的常用编辑语法，它包括了大部分使用场景。若要了解更多，可以访问其[官方网站](https://tiddlywiki.com/)
+* 在知识库中搜索`LaTeX`可以查阅到LaTeX的绝大多数语法。事实上，知识库中的公式使用的是KaTeX插件，它兼容大部分LaTeX语法。查阅更多KaTeX语法，可以访问其[官方网站](https://katex.org/docs/supported.html)
 
 
 您可以在我的GitHub项目上帮助完善，也可以与我取得联系：
