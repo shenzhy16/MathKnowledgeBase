@@ -14,9 +14,9 @@
 
 ###  获取知识库
 
-* 下载MathKnowledgeBase.html文件，在无需网络的情况下，任何浏览器均可直接打开知识库
-* Android手机可以安装MathBase.apk，有网络的环境即可以打开知识库
-* 访问知识库网站math.shenzy.cn在线查阅
+* 下载`MathKnowledgeBase.html`文件，在无需网络的情况下，任何浏览器均可直接打开知识库
+* Android手机可以安装`MathBase.apk`，有网络的环境即可以打开知识库
+* 访问知识库网站[math.shenzy.cn](https://math.shenzy.cn)在线查阅
 
 ###  关于项目
 
@@ -38,7 +38,11 @@
 ###  帮助和完善
 如果您对我的项目感兴趣，我非常欢迎您帮助完善它！
 
-在编辑之前，您可能需要学习一些TiddlyWiki的预备知识，不过这并不难，查阅[帮助文档](https://tiddlywiki.com/)或直接在知识库中搜索“TiddlyWiki使用指南”查阅便可胜任。
+在编辑之前，您可能需要学习一些TiddlyWiki和$$\LaTeX$$的知识
+
+* 在知识库中搜索`TiddlyWiki使用指南`​可以查阅到TiddlyWiki的常用编辑语法，它包括了大部分使用场景。若要了解更多，可以访问其[官方网站](https://tiddlywiki.com/)
+* 在知识库中搜索`LaTeX`可以查阅到$$\LaTeX$$的绝大多数语法。事实上，知识库中的公式使用的是$$\KaTeX$$插件，它兼容大部分$$\LaTeX$$语法。查阅更多$$\KaTeX$$语法，可以访问其[官方网站](https://katex.org/docs/supported.html)
+
 
 您可以在我的GitHub项目上帮助完善，也可以与我取得联系：
 
