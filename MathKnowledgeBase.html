@@ -852,6 +852,8 @@ Error message and password prompt
 
 <li>凸集</li>
 
+<li>凸集度量</li>
+
 <li>图床选择</li>
 
 <li>外延公理</li>
@@ -1033,6 +1035,8 @@ Error message and password prompt
 <li>Comment by '(anonymous)' on 'Cauchy点列'</li>
 
 <li>Comment by '(anonymous)' on 'Hahn-Banach定理'</li>
+
+<li>Comment by '(anonymous)' on 'Hahn-Banach定理（第二几何形式）'</li>
 
 <li>Comment by '(anonymous)' on 'Ｒiesz引理'</li>
 
@@ -14476,7 +14480,7 @@ html body.tc-body {
 <div created="20191124021202245" modified="20200911141817882" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Recent</pre>
 </div>
-<div created="20191124021157202" modified="20201003071606231" title="$:/state/tab/sidebar--595412856">
+<div created="20191124021157202" modified="20201008042641601" title="$:/state/tab/sidebar--595412856">
 <pre>知识库目录</pre>
 </div>
 <div created="20191203044159094" modified="20191215063925642" title="$:/state/toc/知识库目录-基础数学--1082775775">
@@ -14488,8 +14492,8 @@ html body.tc-body {
 <div created="20191203044200360" modified="20191203044230019" title="$:/state/toc/知识库目录-其他相关--1082775775">
 <pre>close</pre>
 </div>
-<div created="20191124025641124" modified="20201004040710718" title="$:/state/toc/知识库目录-其他相关-670268653">
-<pre>close</pre>
+<div created="20191124025641124" modified="20201005075208314" title="$:/state/toc/知识库目录-其他相关-670268653">
+<pre>open</pre>
 </div>
 <div created="20191124074322191" modified="20191124074322882" title="$:/state/toc/知识库目录-其他相关-937382419">
 <pre>close</pre>
@@ -14557,7 +14561,7 @@ html body.tc-body {
 <div created="20191203044542264" modified="20191203044542264" title="$:/state/tree/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.21/">
 <pre>show</pre>
 </div>
-<div created="20201004091136716" list="" modified="20201004105643181" title="$:/StoryList">
+<div created="20201008143552378" list="" modified="20201008162239368" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -15377,7 +15381,7 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20191124023443522" modified="20200911111603161" title="$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary">
 <pre></pre>
 </div>
-<div created="20191124023239474" modified="20201002155139109" title="$:/temp/search">
+<div created="20191124023239474" modified="20201008162231097" title="$:/temp/search">
 <pre></pre>
 </div>
 <div created="20200911111547115" modified="20200911111547115" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.21/index.html" url="https://tiddlywiki.com/library/v5.1.21/index.html">
@@ -15643,8 +15647,8 @@ $$</pre>
 <div created="20200913125412057" modified="20200913125505298" title="常值映射">
 <pre>称[[映射]]$$f:X\to Y$$是''常值映射''，如果$$f(X)$$是单点集</pre>
 </div>
-<div created="20201004031446369" modified="20201004032212261" title="超平面">
-<pre>设$$f:E\to\mathbb{R}$$为$$E$$上的非零泛函
+<div created="20201004031446369" modified="20201005074553779" title="超平面">
+<pre>设$$f:E\to\mathbb{R}$$为$$E$$上的非零线性泛函
 $$H=\left\{x\in E|f(x)=\alpha,\alpha\in \mathbb{R}\right\}
 $$称$$H$$为方程$$[f=\alpha]$$的''超平面''，简称超平面$$[f=\alpha]$$</pre>
 </div>
@@ -16690,11 +16694,11 @@ A\cap B\overset{d}{=}\{x:x\in A,x\in B \}$$
 {{De.Morgan法则}}
 </pre>
 </div>
-<div created="20191011150551966" modified="20200912025834153" title="紧集">
-<pre>称$$A$$是''紧的''(或''自列紧的'')，如果$$A$$的任意一族开覆盖都存在有限的子覆盖
+<div created="20191011150551966" modified="20201008144134394" title="紧集">
+<pre>称$$A$$是''紧集''，如果$$A$$的任意一族开覆盖都存在有限的子覆盖
 
 !!''性质''
-*度量空间上的紧集等价于[[自列紧集]]，即紧集是闭的[[列紧集]]
+*度量空间上的紧集等价于[[自列紧集]]
 *度量空间$$X$$中的紧集$$S$$上的实值连续函数必然有界且上下确界必达
 
 !!相关内容
@@ -16735,7 +16739,7 @@ $$以上不等式简记为“调几算方”</pre>
 [[拓扑]]空间上的开集又与[[度量空间]]上的开集不同，简单的讲，它给定了全集和一族子集，如果全集、空集、子集元素的任意并和有限交依然在这个子集族内，那么称子集族的元素为开集。开集的余集为闭集。这显然是从度量空间上[[开集]]的性质出发来定义的，而度量空间也是拓扑空间，也就是说，这个定义又将开集一般化了
 </pre>
 </div>
-<div created="20190926132540366" modified="20200911154234921" title="开集">
+<div created="20190926132540366" modified="20201008060451203" title="开集">
 <pre>设$$A$$为[[度量空间]]$$X$$上的子集，称集合$$A$$为''开集''，如果：$$
 \forall x_{0}\in A,\exist \delta&gt;0,s.t.B(x_{0},\delta)\subset A $$
 
@@ -16743,19 +16747,19 @@ $$以上不等式简记为“调几算方”</pre>
 *拓扑空间上的开集参阅[[拓扑空间]]
 
 !! ''性质''
-*[[开集的并集是开集]]
-*开集的''有限''交是开集
-
-</pre>
+#[[开集的并集是开集]]
+#开集的''有限''交是开集
+#&lt;div&gt;$$X$$是线性空间，$$A,B\sub X$$至少有一个是开集，则$$A-B,A+B$$是开集&lt;div/&gt;
+''证明''：假设$$A$$是开集，$$B(x_{A}+x_{B},\varepsilon)=B(x_{A}+\varepsilon)+x_{B}\sub A+B$$</pre>
 </div>
-<div created="20190926133557485" modified="20190926140708522" tags="" title="开集的并集是开集">
+<div created="20190926133557485" modified="20201008060509415" tags="" title="开集的并集是开集">
 <pre>''开集的并集是开集''，即对于$$X$$中的任意一族开集$$\{A_{i}| i\in I\}$$，其并集
 $$\bigcup_{i\in I}A_{i}
 $$是开集。这里的开集数量是任意的，可以是可列的，也可以是不可列的。
 
 !! ''证明''
 对于$$
-\forall x_{0}\in \bigcup_{i\in I}A_{i}$$，必有
+\forall x_{0}\in \bigcup_{i\in I}A_{i}$$必有
 $$\exist i,s.t. x_{0}\in A_{i}
 $$
 由于$$A_{i}$$是开集，因此$$x_{0}$$是$$A_{i}$$的内点，即$$
@@ -17541,9 +17545,33 @@ f(a\circ_{1} b)=f(a)\circ_{2}f(b),\forall a,b\in A_{1},A_{2}$$
 *[[环同态]]
 </pre>
 </div>
-<div created="20201004030926193" modified="20201004031200267" title="凸集">
+<div created="20201004030926193" modified="20201008042623364" title="凸集">
 <pre>设$$E$$是[[线性空间]]，称$$A\subset E$$是''凸集''，如果$$
-tx+(1-t)y\in A,\forall x,y\in S,t\in[0,1]$$</pre>
+tx+(1-t)y\in A,\forall x,y\in S,\forall t\in[0,1]$$
+
+!!''性质''
+#&lt;div&gt;设$$A,B$$是凸集，则$$A+B,A-B$$也是凸集.&lt;/div&gt;&lt;div&gt;
+''证明：''取$$x_{A}-x_{B},y_{A}-y_{B}\in A-B$$，其中$$x_{A},y_{A}\in A,x_{B},y_{B}\in B$$，即证$$
+k(x_{A}-x_{B})+(1-k)(y_{A}-y_{B})\in A-B$$而$$A,B$$是凸集，因此$$
+kx_{A}+(1-k)y_{A}\in A\\kx_{B}+(1-k)y_{B}\in B$$&lt;/div&gt;
+</pre>
+</div>
+<div created="20201005075939416" modified="20201008025023445" tags="" title="凸集度量">
+<pre>设$$E$$是[[线性空间]]，$$C\sub E$$是凸开集且$$0\in C$$，对$$\forall x\in E$$，令$$
+p(x)=\inf\left\{\alpha&gt;0|\alpha^{-1}x\in C\right\}$$称$$p(x)$$为$$C$$的''凸集度量''或由$$C$$诱导的''Minkowski泛函''
+
+!''性质''
+#$$
+p(\lambda x)=\lambda p(x),\forall x\in E,\forall \lambda&gt;0$$
+#$$
+p(x+y)\leqslant p(x)+p(y),\forall x,y\in E$$''证明''：$$p(\frac{x}{p(x)+\varepsilon})=\frac{p(x)}{p(x)+\varepsilon}&lt;1$$，于是$$\frac{x}{p(x)+\varepsilon}\in C1$$，同理$$\frac{y}{p(y)+\varepsilon}$$，由于$$C$$是凸集，则对$$\forall t\in[0,1]$$成立$$
+t\frac{x}{p(x)+\varepsilon}+(1-t)\frac{y}{p(y)+\varepsilon}\in C$$取$$t=\frac{p(x)+\varepsilon}{p(x)+p(y)+2\varepsilon}$$，因此$$\frac{x+y}{p(x)+p(y)+2\varepsilon}\in C$$，也即$$x+y&lt;p(x)+p(y)$$.
+#$$
+\exist M,s.t. 0\leqslant p(x)\leqslant M\Vert x\Vert,\forall x\in E$$''证明''：由于$$0\in C$$且$$C$$是开集，则存在$$B(0,r)\subset C$$，对于$$\forall x\in E$$，易知$$\frac{x}{\Vert x\Vert}r\in B(0,r)\sub C$$，也即$$\left(\frac{\Vert x\Vert}{r}\right)^{-1}x\in C$$，对照$$p(x)$$的定义，知$$p(x)\leqslant \frac{\Vert x\Vert}{r},\forall x\in E$$
+#$$
+C=\left\{x|p(x)&lt;1,x\in E\right\}$$''证明''：设$$x\in C$$，则$$(1+\varepsilon)x\in C$$，也即$$B(0,(1+\varepsilon)\Vert x\Vert)\subset C$$，因此$$p(x)\leqslant\frac{1}{1+\varepsilon}&lt;1$$，即$$C\subset\left\{x|p(x)&lt;1,x\in E\right\}$$；反之，若$$p(x)&lt;1$$，则$$\exist \alpha\in(0,1),s.t. \alpha ^{-1}x\in C$$，由于$$C$$是凸集，因此$$x=\alpha(\alpha^{-1}x)+(1-\alpha)0\in C$$，即$$\left\{x|p(x)&lt;1,x\in E\right\}\subset C$$
+
+</pre>
 </div>
 <div created="20190826183504653" modified="20190828172232645" title="图床选择">
 <pre>关于图床的选择，曾有如下考虑
@@ -18161,7 +18189,7 @@ f(x_{n})\to f(x_{0})$$也即极限运算与函数交换顺序
 *充要条件也可以分解为学习笔记（二）中的两条，参阅[[度量空间上的极限]]之映射的极限的充要条件
 </pre>
 </div>
-<div created="20200911145854721" modified="20200911150055537" title="自列紧集">
+<div created="20200911145854721" modified="20201008144850450" title="自列紧集">
 <pre>称$$A$$是自列紧的，如果它是闭的[[列紧集]]，即$$A$$的任意点列都有收敛到$$A$$的子列</pre>
 </div>
 <div created="20200911133356483" modified="20200912091612348" tags="" title="自密集">
@@ -18318,12 +18346,16 @@ $$
 <pre>!''学习笔记''
 * 闭集=内点集$$\bigcup$$孤立点集</pre>
 </div>
-<div created="20201004040808682" edit-mode="no" list="超平面" modified="20201004104853143" role="comment" saved-text="!!''性质''
+<div created="20201004040808682" edit-mode="no" list="超平面" modified="20201005080836422" role="comment" saved-text="!!''性质''
+#&lt;div&gt;超平面不可能为全空间&lt;/div&gt;&lt;div&gt;''证明''反设超平面为全空间，则$$f(x)=\alpha,\forall(x)\in E,\alpha\in\mathbb{R}$$，而$$f$$是线性泛函，因此$$\alpha =0$$，矛盾！&lt;/div&gt;
+
 #&lt;div&gt;超平面$$[f=\alpha]$$是闭的当且仅当$$f$$是连续的&lt;/div&gt;&lt;div&gt;''证明''：若$$f$$连续，则闭集的原象是闭集，单点集$$\alpha$$是闭集，故$$H$$是闭的；若$$[f=\alpha]$$是闭的，则$$H^{c}$$是开集且非空，设$$x_{0}\in H^{c}$$，不妨设$$f(x_{0})&lt;\alpha$$，取$$r&gt;0$$，使得$$B(x_{0},r)\subset H^{c}$$，断言成立$$
 f(x)&lt;\alpha,\forall x\in B(x_{0},r)$$若不然，取$$,x_{1}&gt;\alpha,x_{1}\in B(x_{0},r)$$，由于$$B(x_{0},r)$$是凸集，则$$
 x_{t}=(1-t)x_{0}+tx_{1}\in B(x_{0},r),\forall t\in[0,1]$$因此$$x_{t}\neq\alpha$$，但当$$t=\frac{f(x_{1})-\alpha}{f(x_{1})-f(x_{0})}$$，却有$$f(x_{t})=\alpha$$，矛盾！$$\\$$由$$f(x)&lt;\alpha,\forall x\in B(x_{0},r)$$，有$$f(x_{0}+rx)&lt;\alpha,\forall x\in B(0,1)$$，故$$f(x)&lt;\frac{1}{r}(\alpha-f(x_{0})),\forall x\in B(0,1)$$，也即$$
-\Vert f \Vert=\sup_{\Vert x\Vert\leqslant}f(x)&lt;\frac{1}{r}(\alpha-f(x_{0}))$$因此$$f$$有界，即$$f$$连续&lt;/div&gt;" title="Comment by '(anonymous)' on '超平面'">
-<pre>!!''性质''
+\Vert f \Vert=\sup_{\Vert x\Vert\leqslant 1}f(x)&lt;\frac{1}{r}(\alpha-f(x_{0}))$$因此$$f$$有界，即$$f$$连续&lt;/div&gt;" title="Comment by '(anonymous)' on '超平面'">
+<pre>!''性质''
+#&lt;div&gt;超平面不可能为全空间&lt;/div&gt;&lt;div&gt;''证明''反设超平面为全空间，则$$f(x)=\alpha,\forall(x)\in E,\alpha\in\mathbb{R}$$，而$$f$$是线性泛函，因此$$\alpha =0$$，矛盾！&lt;/div&gt;
+
 #&lt;div&gt;超平面$$[f=\alpha]$$是闭的当且仅当$$f$$是连续的&lt;/div&gt;&lt;div&gt;''证明''：若$$f$$连续，则闭集的原象是闭集，单点集$$\alpha$$是闭集，故$$H$$是闭的；若$$[f=\alpha]$$是闭的，则$$H^{c}$$是开集且非空，设$$x_{0}\in H^{c}$$，不妨设$$f(x_{0})&lt;\alpha$$，取$$r&gt;0$$，使得$$B(x_{0},r)\subset H^{c}$$，断言成立$$
 f(x)&lt;\alpha,\forall x\in B(x_{0},r)$$若不然，取$$,x_{1}&gt;\alpha,x_{1}\in B(x_{0},r)$$，由于$$B(x_{0},r)$$是凸集，则$$
 x_{t}=(1-t)x_{0}+tx_{1}\in B(x_{0},r),\forall t\in[0,1]$$因此$$x_{t}\neq\alpha$$，但当$$t=\frac{f(x_{1})-\alpha}{f(x_{1})-f(x_{0})}$$，却有$$f(x_{t})=\alpha$$，矛盾！$$\\$$由$$f(x)&lt;\alpha,\forall x\in B(x_{0},r)$$，有$$f(x_{0}+rx)&lt;\alpha,\forall x\in B(0,1)$$，故$$f(x)&lt;\frac{1}{r}(\alpha-f(x_{0})),\forall x\in B(0,1)$$，也即$$
@@ -18438,9 +18470,9 @@ ae=a(a^{\prime}a) = (aa^{\prime})a = ea = a:$$
 <pre>!''学习笔记''
 *拓扑（开集族）定义的二三条与度量空间上[[开集]]的性质相同，因此从本质上两种定义仅仅是出发点不同。</pre>
 </div>
-<div created="20201004031147402" edit-mode="no" list="凸集" modified="20201004031350553" role="comment" title="Comment by '(anonymous)' on '凸集'">
+<div created="20201008041153161" edit-mode="no" list="凸集" modified="20201008041338493" role="comment" title="Comment by '(anonymous)' on '凸集'">
 <pre>!''学习笔记''
-*凸集要求定义在线性空间的子集上，因为要求有数乘且元素间有加减</pre>
+凸集要求定义在线性空间的子集上，因为要求有数乘且元素间有加减</pre>
 </div>
 <div created="20200916115012116" edit-mode="no" list="线性空间" modified="20200916115127451" role="comment" saved-text="! ''学习笔记''
 *线性空间上（也即元素间）仅有一种二元运算，即加法；而数乘是数域上的数与线性空间上的元素之间的运算
@@ -18472,12 +18504,12 @@ ae=a(a^{\prime}a) = (aa^{\prime})a = ea = a:$$
 <pre>!''性质''
 #&lt;div&gt;''幺元有唯一性''&lt;/div&gt;&lt;div&gt;''证明''：设$$e$$和$$e^{\prime}$$为幺元，那么$$e=ee^{\prime}=e^{\prime}$$&lt;/div&gt;</pre>
 </div>
-<div created="20200912025856994" edit-mode="no" list="有限覆盖定理" modified="20200912025949644" role="comment" saved-text="!!''开集不满足有限覆盖定理''
-!!''反例''
-$$\left(0,\frac{1}{n}\right)$$是开区间$$\left(0,1\right)$$的一族开覆盖，但没有有限的子覆盖" title="Comment by '(anonymous)' on '有限覆盖定理'">
-<pre>!!''开集不满足有限覆盖定理''
-!!''反例''
-$$\left(0,\frac{1}{n}\right)$$是开区间$$\left(0,1\right)$$的一族开覆盖，但没有有限的子覆盖</pre>
+<div created="20200912025856994" edit-mode="no" list="有限覆盖定理" modified="20201008144844061" role="comment" saved-text="!''学习笔记''
+#&lt;div&gt;开集不满足有限覆盖定理&lt;/div&gt;&lt;div&gt;'’反例''：$$\left(0,\frac{1}{n}\right)$$是开区间$$\left(0,1\right)$$的一族开覆盖，但没有有限的子覆盖&lt;/div&gt;
+" title="Comment by '(anonymous)' on '有限覆盖定理'">
+<pre>!''学习笔记''
+#&lt;div&gt;开集不满足有限覆盖定理&lt;/div&gt;&lt;div&gt;''反例''：$$\left(0,\frac{1}{n}\right)$$是开区间$$\left(0,1\right)$$的一族开覆盖，但没有有限的子覆盖&lt;/div&gt;
+</pre>
 </div>
 <div created="20201002142843175" edit-mode="no" list="正则元" modified="20201002143128099" role="comment" saved-text="!''学习笔记''
 * [[幂等元]]都是正则的" title="Comment by '(anonymous)' on '正则元'">
@@ -18514,6 +18546,17 @@ $$\left(0,\frac{1}{n}\right)$$是开区间$$\left(0,1\right)$$的一族开覆盖
 #&lt;div&gt; 对$$\forall x\in E$$，成立$$
 \Vert x\Vert=\sup_{\Vert f\Vert\leqslant 1}\vert &lt;f,x&gt;\vert=\max_{\Vert f\Vert\leqslant 1}\vert &lt;f,x&gt;\vert.$$&lt;/div&gt;&lt;div&gt;''证明''：设$$x\neq 0$$，显然$$
 \sup_{\Vert f\Vert\leqslant 1}\vert f(x)\vert\leqslant\Vert x \Vert$$此外由推论2，存在$$f_{0}\in E^{*}$$，使得$$\Vert f_{0}\Vert=\Vert x\Vert$$以及$$f_{0}(x)=\Vert x\Vert^{2}$$令$$f_{1}=\Vert x\Vert^{-1}f^{0}$$，从而$$f_{1}=1$$且$$f_{1}(x)=\Vert x\Vert.$$&lt;/div&gt;</pre>
+</div>
+<div created="20201008161449380" edit-mode="no" list="Hahn-Banach定理（第二几何形式）" modified="20201008163538953" role="comment" saved-text="!''推论''
+#&lt;div&gt;设$$E$$是赋范线性空间，$$F\sub E$$是子空间，且$$\overline{F}\neq E$$，则存在$$f\in E^{*},f\neq 0$$，使得$$
+f(x)=0,\forall x\in F$$&lt;/div&gt;&lt;div&gt;''证明''：由$$\overline{F}\neq E$$，可取$$x_{0}\notin \overline{F}$$， $$\overline{F}$$是闭集，$$\{x_{0}\}$$是紧集，故存在闭的超平面$$[f=\alpha]$$严格分离$$\overline{F}$$和$$\{x_{0}\}$$，即$$
+f(x)&lt;\alpha&lt;f(x_{0}),\forall x\in F$$，因此$$\lambda f(x)&lt;\alpha,\forall \lambda \in\mathbb{R}$$，故$$
+f(x)=0,\forall x\in F$$&lt;div&gt;" title="Comment by '(anonymous)' on 'Hahn-Banach定理（第二几何形式）'">
+<pre>!''推论''
+#&lt;div&gt;设$$E$$是赋范线性空间，$$F\sub E$$是子空间，且$$\overline{F}\neq E$$，则存在$$f\in E^{*},f\neq 0$$，使得$$
+f(x)=0,\forall x\in F$$&lt;/div&gt;&lt;div&gt;''证明''：由$$\overline{F}\neq E$$，可取$$x_{0}\notin \overline{F}$$， $$\overline{F}$$是闭集，$$\{x_{0}\}$$是紧集，故存在闭的超平面$$[f=\alpha]$$严格分离$$\overline{F}$$和$$\{x_{0}\}$$，即$$
+f(x)&lt;\alpha&lt;f(x_{0}),\forall x\in F$$因此$$\lambda f(x)&lt;\alpha,\forall \lambda \in\mathbb{R}$$，故$$
+f(x)=0,\forall x\in F$$&lt;div&gt;</pre>
 </div>
 <div created="20200916135928786" edit-mode="no" list="Ｒiesz引理" modified="20200916141233121" role="comment" title="Comment by '(anonymous)' on 'Ｒiesz引理'">
 <pre>!''学习笔记''
@@ -18654,11 +18697,52 @@ a=(A\vert B)$$
 ||||||||
 </pre>
 </div>
-<div created="20201004105601929" modified="20201004105748949" tags="" title="Hahn-Banach定理（第二几何形式）">
-<pre>设$$E$$是[[线性赋范空间]]，子集$$A,B$$为两个不相交的非空[[凸集]]，假设$$A$$是闭集，$$B$$是紧集，则存在闭的[[超平面]][[严格分离|分离]]$$A$$和$$B$$.</pre>
+<div created="20201004105601929" modified="20201008161324664" tags="" title="Hahn-Banach定理（第二几何形式）">
+<pre>设$$E$$是[[线性赋范空间]]，子集$$A,B$$为两个不相交的非空[[凸集]]，假设$$A$$是[[闭集]]，$$B$$是[[紧集]]，则存在闭的[[超平面]][[严格分离|分离]]$$A$$和$$B$$.
+
+!!''证明''
+取$$C=A-B$$，断言$$C$$是凸闭集：
+
+* 由[[凸集]]的性质知，$$C$$是凸集；
+* 取$$C$$中的点列$$x_{i}-y_{i}$$，其中$$x_{i}\in A,y_{i}\in B$$，由$$A$$是闭集，得到$$x_{i}\to x_{0}\in A$$；$$B$$是紧集，因此是自列紧的，即存在子列$$ (y_{i})_{k}\to y_{0}\in B$$，因此$$x_{i}-y_{i}\to x_{0}-y_{0}\in A-B$$，故$$C$$是凸闭集.
+$$C^{c}$$是开集，而$$0\in C^{c}$$，故存在$$r$$，使得$$B(0,r)\in C^{c}$$，即$$B(0,r)\cap C=\varnothing$$，由[[Hahn-Banach定理（第一几何形式）]]知，存在一个闭的超平面分离$$B(0,r)$$和$$C$$，因此存在$$f\in E^{*},f\neq 0$$，使得$$
+f(x-y)\leqslant f(rz),\forall x\in A,y\in B,z\in B(0,1)$$因此$$
+\inf f(x-y)=f(x-y)\leqslant \inf_{\Vert -z\Vert\leqslant 1}(-rf(-z))=-r\sup_{\Vert -z\Vert\leqslant 1} f(-z)=-r\Vert f\Vert$$取$$\varepsilon =\frac{1}{2}r\Vert f\Vert&gt;0$$，于是$$
+f(x)+\varepsilon\leqslant f(y)-\varepsilon,\forall x\in A,y\in B$$因此存在$$\alpha$$使得$$
+\sup_{x\in A}f(x)+\varepsilon\leqslant \alpha\leqslant\inf_{y\in B}f(y)-\varepsilon$$即$$f=\alpha$$严格分离$$A$$和$$B$$.</pre>
 </div>
-<div created="20201004030025847" modified="20201004105556751" title="Hahn-Banach定理（第一几何形式）">
-<pre>设$$E$$是[[线性赋范空间]]，子集$$A,B$$为两个不相交的非空[[凸集]]，假设$$A$$是开集，则存在闭的[[超平面]][[分离]]$$A$$和$$B$$.</pre>
+<div created="20201004030025847" modified="20201008063345162" title="Hahn-Banach定理（第一几何形式）">
+<pre>设$$E$$是[[线性赋范空间]]，子集$$A,B$$为两个不相交的非空[[凸集]]，其中至少一个是开集，则存在闭的[[超平面]][[分离]]$$A$$和$$B$$.
+
+!!''证明''
+取$$C=A-B$$，由[[凸集]]和[[开集]]的性质知，$$C$$是凸开集，且$$0\notin C$$，由引理得到$$
+\exist f\in E^{*},s.t.f(z)&lt;0,\forall z \in C$$即$$
+f(z)=f(x-y)=f(x)-f(y)&lt;0,\forall x\in A,y\in B$$因此$$f(x)&lt;f(y)$$，故可以取$$\alpha$$满足$$
+\sup_{x\in A}f(x)\leqslant\alpha\leqslant \inf_{y\in B}f(y)$$也即超平面$$[f=\alpha]$$分离$$A$$和$$B$$.
+
+
+
+!!!''引理''
+设$$E$$是线性赋范空间，$$C$$是$$E$$中的非空凸开集，设$$x_{0}\in E,x_{0}\notin C$$，那么存在$$f\in E^{*}$$，使得$$
+f(x)&lt;f(x_{0}),\forall x\in C\\$$特别的，$$[f=f(x_{0})]$$分离$$\{x_{0}\}$$和$$C$$.
+
+!!!''证明''
+通过平移我们总能假设$$0\in C$$，于是我们引入$$C$$的[[度量|凸集度量]]$$p$$，考虑$$G=span\{x_{0}\}$$和$$G$$上的线性泛函$$g$$，定义为$$
+g(tx_{0})=t,t\in\mathbb{R}$$
+
+对$$x\in G$$，当$$t\leqslant0$$时，$$g(x)\leqslant0\leqslant p(x)\\$$
+对$$x\in G$$，当$$t&gt;0$$时，$$g(x)=g(tx_{0})=t$$，$$p(x)=p(tx_{0})=tp(x_{0})$$，而$$p(x_{0})&gt;1$$，故$$g(x)\leqslant p(x)\\$$
+综上，$$
+g(x)\leqslant p(x),\forall x\in G$$
+由[[凸集度量]]$$p$$的性质知，$$
+p(\lambda x)=\lambda p(x)\\p(x+y)\leqslant p(x)+p(y)$$于是根据[[Hahn-Banach定理（解析形式）]]，存在$$g$$在$$E$$上的延拓$$f$$，满足$$
+f(x)\leqslant p(x),x\in E$$由[[凸集度量]]性质知，$$p$$有界，因此$$f$$有界，故$$f$$连续，即$$f\in E^{*}.\\$$
+特别的，$$f(x_{0})=f|_{G}(x_{0})=g(x_{0})=1$$，而$$f(x)\leqslant p(x)&lt;1,x\in G$$，于是$$
+f(x)&lt;f(x_{0}),\forall x\in G$$
+换句话说，$$
+f(x)\geqslant f(x_{0}),x\in\{x_{0}\}\\
+f(x)\leqslant f(x_{0}),x\in C$$
+也即$$f$$分离$$\{x_{0}\}$$和$$G$$.</pre>
 </div>
 <div created="20200916010339208" modified="20201004025616423" title="Hahn-Banach定理（解析形式）">
 <pre>泛函$$p:E\to\mathbb{R}$$满足$$
